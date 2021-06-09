@@ -1,0 +1,696 @@
+fileFormatVersion: 2
+guid: 05cb44b332ff7bf428c4c5eff18d9211
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3296168606836165797
+    second: idle,run,jump_sheet_0
+  - first:
+      213: 6450970238840529293
+    second: idle,run,jump_sheet_1
+  - first:
+      213: -5329941207175906563
+    second: idle,run,jump_sheet_2
+  - first:
+      213: 8073142034364293574
+    second: idle,run,jump_sheet_3
+  - first:
+      213: 6754800633592148057
+    second: idle,run,jump_sheet_4
+  - first:
+      213: -1116760409164877441
+    second: idle,run,jump_sheet_5
+  - first:
+      213: -8723722407244407924
+    second: idle,run,jump_sheet_6
+  - first:
+      213: 2253113765363550712
+    second: idle,run,jump_sheet_7
+  - first:
+      213: -8095480321716968962
+    second: idle,run,jump_sheet_8
+  - first:
+      213: 459524050449539776
+    second: idle,run,jump_sheet_9
+  - first:
+      213: -8172930664232777716
+    second: idle,run,jump_sheet_10
+  - first:
+      213: -417065825346034246
+    second: idle,run,jump_sheet_11
+  - first:
+      213: 4763891917586071824
+    second: idle,run,jump_sheet_12
+  - first:
+      213: 1702811728906023833
+    second: idle,run,jump_sheet_13
+  - first:
+      213: 4505886776156271747
+    second: idle,run,jump_sheet_14
+  - first:
+      213: 6006521638696858717
+    second: idle,run,jump_sheet_15
+  - first:
+      213: -6034312996328077799
+    second: idle,run,jump_sheet_16
+  - first:
+      213: -4357836263032803797
+    second: idle,run,jump_sheet_17
+  - first:
+      213: -8355199567897082765
+    second: idle,run,jump_sheet_18
+  - first:
+      213: -4679545467791920886
+    second: idle,run,jump_sheet_19
+  - first:
+      213: 5898015254583664351
+    second: idle,run,jump_sheet_20
+  - first:
+      213: 8284939809010705720
+    second: idle,run,jump_sheet_21
+  - first:
+      213: -2962894680168757382
+    second: idle,run,jump_sheet_22
+  - first:
+      213: 5539145333880248515
+    second: idle,run,jump_sheet_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac834252e75ebd20800000000000000
+      internalID: 3296168606836165797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81e4b6e043768950800000000000000
+      internalID: 6450970238840529293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa309816be3806b0800000000000000
+      internalID: -5329941207175906563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1ee8b28ef890070800000000000000
+      internalID: 8073142034364293574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f7d5436fddbd50800000000000000
+      internalID: 6754800633592148057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71f18023587080f0800000000000000
+      internalID: -1116760409164877441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd41dd0bc1fe680800000000000000
+      internalID: -8723722407244407924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98907380ba44f10800000000000000
+      internalID: 2253113765363550712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef125e10a8317af80800000000000000
+      internalID: -8095480321716968962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 4
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c22bc070be806600800000000000000
+      internalID: 459524050449539776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 4
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080288ecdae39e80800000000000000
+      internalID: -8172930664232777716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 3
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab56b4077d8463af0800000000000000
+      internalID: -417065825346034246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 3
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0118218757ebc1240800000000000000
+      internalID: 4763891917586071824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 4
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993ffccde3a91a710800000000000000
+      internalID: 1702811728906023833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 4
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384bce25620288e30800000000000000
+      internalID: 4505886776156271747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5439324b937b5350800000000000000
+      internalID: 6006521638696858717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 3
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916875e0d40d14ca0800000000000000
+      internalID: -6034312996328077799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 3
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e2d90f10bd583c0800000000000000
+      internalID: -4357836263032803797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 4
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3744fffb24e5c0c80800000000000000
+      internalID: -8355199567897082765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0139f9b03aee0fb0800000000000000
+      internalID: -4679545467791920886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde5b4100a5f9d150800000000000000
+      internalID: 5898015254583664351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 5
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835639d5cd40af270800000000000000
+      internalID: 8284939809010705720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 5
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7785a98cfea1e6d0800000000000000
+      internalID: -2962894680168757382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle,run,jump_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 3
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8d131655ffedc40800000000000000
+      internalID: 5539145333880248515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
