@@ -40,7 +40,7 @@ public class Enemy1 : MonoBehaviour
         // Tấn công bên trái
         if (isLeft1 == true)
         {
-            Flip();
+            
             if (attacking)
             {
                 if (delay > 0)
@@ -122,13 +122,7 @@ public class Enemy1 : MonoBehaviour
         }
     }
     // Lật hình ảnh
-    public void Flip()
-    {
-        isLeft1 = !isLeft1;
-        scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
-    }
+    
     // Active LeftCone sau thời gian chờ
     IEnumerator CountDown()
     {
