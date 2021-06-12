@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Moving
         float horizontal = Input.GetAxis("Horizontal");
         r2.AddForce((Vector2.right) * speed * horizontal);
 

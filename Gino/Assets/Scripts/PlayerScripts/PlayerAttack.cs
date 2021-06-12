@@ -55,10 +55,6 @@ public class PlayerAttack : MonoBehaviour
                 throwAttacking = true;
             }    
         }
-        
-        
-        
-
     }
     public void ThrowKnife()
     {
