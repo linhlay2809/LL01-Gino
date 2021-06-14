@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
         {
             Flip();
         }
-        // Jump khi grounded == true
+        // Giam speed ko bi truot
         if (grounded)
         {
             r2.velocity = new Vector2(r2.velocity.x * 0.7f, r2.velocity.y);

@@ -121,7 +121,6 @@ public class Enemy1 : MonoBehaviour
             StartCoroutine(CountDown2());
         }
     }
-    // Lật hình ảnh
     
     // Active LeftCone sau thời gian chờ
     IEnumerator CountDown()

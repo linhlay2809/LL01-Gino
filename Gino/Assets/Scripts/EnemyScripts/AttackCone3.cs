@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackCone : MonoBehaviour
+public class AttackCone3 : MonoBehaviour
 {
     private Enemy3 enemyAI;
     public bool isLeft;
