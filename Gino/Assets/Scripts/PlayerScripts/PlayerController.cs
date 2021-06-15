@@ -15,9 +15,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D r2;
     private Animator anim;
 
-    public GameMaster gm;
+    private GameMaster gm;
 
-    public SoundManager sound;
+    private SoundManager sound;
     // Start is called before the first frame update
     void Start()
     {

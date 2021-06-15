@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!61 &176558353
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!61 &234833266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28705,6 +28705,7 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 600
   nextWaypointDistance: 3
+  reachedEndOfPath: 0
 --- !u!58 &1038553560472325738
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29307,6 +29308,7 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 600
   nextWaypointDistance: 3
+  reachedEndOfPath: 0
 --- !u!114 &3538980367229114281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30499,6 +30501,7 @@ MonoBehaviour:
   target: {fileID: 0}
   speed: 600
   nextWaypointDistance: 3
+  reachedEndOfPath: 0
 --- !u!114 &5672199584548985671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32355,7 +32358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!61 &7175498877317545627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32452,7 +32455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!4 &7175498877493047546
 Transform:
   m_ObjectHideFlags: 0
@@ -33121,7 +33124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!61 &7175498878678642762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33160,7 +33163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfffba37af54204489f8152b169475ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 2
+  dmg: 3
 --- !u!4 &7175498878678642772
 Transform:
   m_ObjectHideFlags: 0

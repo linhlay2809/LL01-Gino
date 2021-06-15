@@ -91,7 +91,7 @@ public class Enemy1 : MonoBehaviour
     void Damage(int damage)
     {
         Health -= damage;
-        gameObject.GetComponent<Animation>().Play("TakeDamage");
+        gameObject.GetComponent<Animation>().Play("Enemy1_TakeDmg");
     }
     // Thời gian chờ tấn công của enemy
     IEnumerator DelayAtack()

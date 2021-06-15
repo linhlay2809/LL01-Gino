@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float throwDelay = 0.7f;
     public bool throwAttacking = false;
 
     public bool attacking = false;

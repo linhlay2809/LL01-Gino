@@ -4,50 +4,76 @@ using UnityEngine;
 
 public class Enemy2 : MonoBehaviour
 {
+    public GameObject target;
+
     private Animator anim;
 
-    public Rigidbody2D r2;
+    private Rigidbody2D r2;
 
     public Collider2D enemyAttack;
-    public Collider2D enemyAttackR;
-    public GameObject cone1;
-    public GameObject cone2;
+    public GameObject cone;
 
     public GameObject enemyDeathEF;
 
     public float speed = 50f, maxSpeed = 3f;
-    public bool faceRight = true;
 
-    public bool isLeft1;
+    public float delay = 0.2f, returnDelay = 0.2f;
     public bool isTrigger;
-
     public bool attacking = false;
 
+    Vector3 scale;
     public int Health = 100;
     // Start is called before the first frame update
     void Start()
     {
+        scale = transform.localScale;
         anim = gameObject.GetComponent<Animator>();
         r2 = gameObject.GetComponent<Rigidbody2D>();
+        enemyAttack.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
         anim.SetFloat("Walk", Mathf.Abs(r2.velocity.x));
-
+        if (attacking)
+        {
+            anim.SetBool("Attack", true);
+            if (delay > 0)
+            {
+                delay -= Time.deltaTime;
+            }
+            else
+            {
+                attacking = false;
+                // Delay attack
+                enemyAttack.enabled = true;
+                StartCoroutine(DelayAtack());
+            }
+            StartCoroutine(CountDown());
+        }
         
     }
     void FixedUpdate()
     {
-        r2.velocity = new Vector2(r2.velocity.x * 0.7f, r2.velocity.y);
-        if (isLeft1 == true && isTrigger == true)
+        r2.velocity = new Vector2(r2.velocity.x * 0.9f, r2.velocity.y);
+        if (target.transform.position.x < gameObject.transform.position.x)
         {
-            r2.AddForce(-(Vector2.right) * speed);
+            if (isTrigger == true)
+            {
+                r2.AddForce((Vector2.right) * -speed);
+            }
+            scale.x = -1;
+            transform.localScale = scale;
         }
-        if (isLeft1 == false && isTrigger == true)
+        else
         {
-            r2.AddForce((Vector2.right) * speed);
+            if (isTrigger == true)
+            {
+                r2.AddForce((Vector2.right) * speed);
+            }
+            scale.x = 1;
+            transform.localScale = scale;
         }
         // Trả giá trị lực đẩy về maxSpeed khi vượt quá maxSpeed--------
         if (r2.velocity.x > maxSpeed)
@@ -58,7 +84,7 @@ public class Enemy2 : MonoBehaviour
         {
             r2.velocity = new Vector2(-maxSpeed, r2.velocity.y);
         }
-        
+
         if (Health <= 0)
         {
             Destroy(gameObject);
@@ -66,25 +92,24 @@ public class Enemy2 : MonoBehaviour
             Destroy(clone, 0.5f);
         }
     }
-    public void Flip()
+    void Damage(int damage)
     {
-        faceRight = !faceRight;
-        Vector3 scale;
-        scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        Health -= damage;
+        gameObject.GetComponent<Animation>().Play("Enemy2_TakeDmg");
     }
-    public void Attack(bool attackLeft)
+    // Thời gian chờ tấn công của enemy
+    IEnumerator DelayAtack()
     {
-        // Kich hoạt tấn công bến trái
-        if (attackLeft)
-        {
-            isLeft1 = true;
-        }
-        // Kich hoạt tấn công bến phải
-        if (!attackLeft)
-        {
-            isLeft1 = false;
-        }
+        yield return new WaitForSeconds(0.1f);
+        enemyAttack.enabled = false;
+        yield return new WaitForSeconds(0.4f);
+        anim.SetBool("Attack", false);
     }
+    IEnumerator CountDown()
+    {
+        yield return new WaitForSeconds(1f);
+        cone.SetActive(true);
+    }
+
+
 }

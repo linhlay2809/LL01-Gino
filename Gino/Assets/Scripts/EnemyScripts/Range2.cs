@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackCone2 : MonoBehaviour
+public class Range2 : MonoBehaviour
 {
     private Enemy2 enemyAI;
     // Start is called before the first frame update
@@ -10,14 +10,19 @@ public class AttackCone2 : MonoBehaviour
     {
         enemyAI = gameObject.GetComponentInParent<Enemy2>();
     }
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.isTrigger == false && col.CompareTag("Player"))
         {
-            enemyAI.attacking = true;
-            gameObject.SetActive(false);
+            enemyAI.isTrigger = true;
         }
     }
-
-
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.isTrigger == false && col.CompareTag("Player"))
+        {
+            enemyAI.isTrigger = false;
+        }
+    }
 }

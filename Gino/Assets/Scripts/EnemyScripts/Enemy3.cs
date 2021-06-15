@@ -89,7 +89,7 @@ public class Enemy3 : MonoBehaviour
     void Damage(int damage)
     {
         Health -= damage;
-        gameObject.GetComponent<Animation>().Play("take");
+        gameObject.GetComponent<Animation>().Play("Enemy3_TakeDmg");
     }
     // Thời gian chờ tấn công của enemy
     IEnumerator DelayAtack()
