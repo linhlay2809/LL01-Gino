@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip coin, enemy3Attack, knifeAttack, jump, dead, enemy1Attack;
+    public AudioClip coin, enemy3Attack, knifeAttack, jump, dead, enemy1Attack, throwKnife, throwKnifeAtive;
 
     public AudioSource audioSource;
     // Start is called before the first frame update
@@ -17,6 +17,8 @@ public class SoundManager : MonoBehaviour
         knifeAttack = Resources.Load<AudioClip>("knife-attack");
         jump = Resources.Load<AudioClip>("jumpMan");
         dead = Resources.Load<AudioClip>("dead");
+        throwKnife = Resources.Load<AudioClip>("throw_knife");
+        throwKnifeAtive = Resources.Load<AudioClip>("throw_knife_effect");
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -31,33 +33,35 @@ public class SoundManager : MonoBehaviour
         switch (clip)
         {
             case "coin":
-                audioSource.clip = coin;
                 audioSource.PlayOneShot(coin);
                 break;
 
             case "enemy3Attack":
-                audioSource.clip = coin;
                 audioSource.PlayOneShot(enemy3Attack, 0.5f);
                 break;
 
-            case "knifeAttack":
-                audioSource.clip = coin;
+            case "knifeAttack":   
                 audioSource.PlayOneShot(knifeAttack, 0.5f);
                 break;
 
-            case "jump":
-                audioSource.clip = coin;
+            case "jump":           
                 audioSource.PlayOneShot(jump);
                 break;
 
             case "dead":
-                audioSource.clip = coin;
                 audioSource.PlayOneShot(dead);
                 break;
 
             case "enemy1Attack":
-                audioSource.clip = coin;
                 audioSource.PlayOneShot(enemy1Attack);
+                break;
+
+            case "throwKnife":
+                audioSource.PlayOneShot(throwKnife);
+                break;
+
+            case "throwKnifeAtive":
+                audioSource.PlayOneShot(throwKnifeAtive);
                 break;
         }
     }

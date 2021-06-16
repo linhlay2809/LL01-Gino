@@ -57,6 +57,7 @@ public class PlayerAttack : MonoBehaviour
     }
     public void ThrowKnife()
     {
+        sound.PlaySound("throwKnife");
         StartCoroutine(DelayThrow());
     }
     // Thời gian kiếm bắt đầu bay ra
