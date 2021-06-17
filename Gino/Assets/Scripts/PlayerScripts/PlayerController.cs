@@ -17,14 +17,14 @@ public class PlayerController : MonoBehaviour
 
     private GameMaster gm;
 
-    private SoundManager sound;
+    public PlayerSoundManager sound;
     // Start is called before the first frame update
     void Start()
     {
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
+        sound = GameObject.FindGameObjectWithTag("PlayerSound").GetComponent<PlayerSoundManager>();
         ourHealth = maxHealth;
     }
 

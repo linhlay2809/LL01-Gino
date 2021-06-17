@@ -14,7 +14,7 @@ public class AttackCone2 : MonoBehaviour
     {
         if (col.isTrigger == false && col.CompareTag("Player"))
         {
-            enemyAI.attacking = true;
+            enemyAI.Attack();
             gameObject.SetActive(false);
         }
     }

@@ -19,7 +19,7 @@ public class PlayerAttack : MonoBehaviour
     public Collider2D triggerD;
 
     private GameMaster gm;
-    public SoundManager sound;
+    public PlayerSoundManager sound;
 
     public static PlayerAttack instance;
     private void Awake()
@@ -29,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
+        sound = GameObject.FindGameObjectWithTag("PlayerSound").GetComponent<PlayerSoundManager>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         trigger.enabled = false;
         triggerB.enabled = false;

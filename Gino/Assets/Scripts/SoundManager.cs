@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip coin, enemy3Attack, knifeAttack, jump, dead, enemy1Attack, throwKnife, throwKnifeAtive;
+    public AudioClip coin, enemy3Attack, enemy1Attack, throwKnifeAtive, enemy2Attack;
 
     public AudioSource audioSource;
     // Start is called before the first frame update
@@ -14,11 +14,8 @@ public class SoundManager : MonoBehaviour
         enemy3Attack = Resources.Load<AudioClip>("monstar_attack3");
         enemy1Attack = Resources.Load<AudioClip>("birdAttack");
         // Âm thanh Player attack 1
-        knifeAttack = Resources.Load<AudioClip>("knife-attack");
-        jump = Resources.Load<AudioClip>("jumpMan");
-        dead = Resources.Load<AudioClip>("dead");
-        throwKnife = Resources.Load<AudioClip>("throw_knife");
         throwKnifeAtive = Resources.Load<AudioClip>("throw_knife_effect");
+        enemy2Attack = Resources.Load<AudioClip>("enemy2_attack");
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -40,28 +37,16 @@ public class SoundManager : MonoBehaviour
                 audioSource.PlayOneShot(enemy3Attack, 0.5f);
                 break;
 
-            case "knifeAttack":   
-                audioSource.PlayOneShot(knifeAttack, 0.5f);
-                break;
-
-            case "jump":           
-                audioSource.PlayOneShot(jump);
-                break;
-
-            case "dead":
-                audioSource.PlayOneShot(dead);
-                break;
-
             case "enemy1Attack":
                 audioSource.PlayOneShot(enemy1Attack);
                 break;
 
-            case "throwKnife":
-                audioSource.PlayOneShot(throwKnife);
-                break;
-
             case "throwKnifeAtive":
                 audioSource.PlayOneShot(throwKnifeAtive);
+                break;
+
+            case "enemy2Attack":
+                audioSource.PlayOneShot(enemy2Attack);
                 break;
         }
     }

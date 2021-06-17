@@ -15,6 +15,8 @@ public class Enemy2 : MonoBehaviour
 
     public GameObject enemyDeathEF;
 
+    public SoundManager sound;
+
     public float speed = 50f, maxSpeed = 3f;
 
     public float delay = 0.2f, returnDelay = 0.2f;
@@ -26,6 +28,7 @@ public class Enemy2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
         scale = transform.localScale;
         anim = gameObject.GetComponent<Animator>();
         r2 = gameObject.GetComponent<Rigidbody2D>();
@@ -110,6 +113,10 @@ public class Enemy2 : MonoBehaviour
         yield return new WaitForSeconds(1f);
         cone.SetActive(true);
     }
-
+    public void Attack()
+    {
+        attacking = true;
+        sound.PlaySound("enemy2Attack");
+    }
 
 }
