@@ -1,53 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.Audio;
+using System;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioClip coin, enemy3Attack, enemy1Attack, throwKnifeAtive, enemy2Attack;
+    public Sound[] sounds;
 
-    public AudioSource audioSource;
-    // Start is called before the first frame update
-    void Start()
+    public static SoundManager instance;
+    void Awake()
     {
-        coin = Resources.Load<AudioClip>("coin2");
-        enemy3Attack = Resources.Load<AudioClip>("monstar_attack3");
-        enemy1Attack = Resources.Load<AudioClip>("birdAttack");
-        // Âm thanh Player attack 1
-        throwKnifeAtive = Resources.Load<AudioClip>("throw_knife_effect");
-        enemy2Attack = Resources.Load<AudioClip>("enemy2_attack");
-        audioSource = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void PlaySound(string clip)
-    {
-        switch (clip)
+        if (instance == null)
+            instance = this;
+        else
         {
-            case "coin":
-                audioSource.PlayOneShot(coin);
-                break;
-
-            case "enemy3Attack":
-                audioSource.PlayOneShot(enemy3Attack, 0.5f);
-                break;
-
-            case "enemy1Attack":
-                audioSource.PlayOneShot(enemy1Attack);
-                break;
-
-            case "throwKnifeAtive":
-                audioSource.PlayOneShot(throwKnifeAtive);
-                break;
-
-            case "enemy2Attack":
-                audioSource.PlayOneShot(enemy2Attack);
-                break;
+            Destroy(gameObject);
+            return;
         }
+
+        DontDestroyOnLoad(gameObject);
+        foreach(Sound s in sounds)
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
+
+            s.source.clip = s.clip;
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+        }    
+    }
+    public void Play(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if(s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found");
+            return;
+        }
+        s.source.Play();
     }
 }

@@ -24,7 +24,7 @@ public class Knife : MonoBehaviour
         {
             if (col.isTrigger == false && col.CompareTag("Player"))
             {
-                sound.PlaySound("coin");
+
                 gm.amountKnife += 1;
                 Destroy(gameObject);
             }

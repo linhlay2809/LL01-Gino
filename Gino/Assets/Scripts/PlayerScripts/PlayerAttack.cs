@@ -19,7 +19,6 @@ public class PlayerAttack : MonoBehaviour
     public Collider2D triggerD;
 
     private GameMaster gm;
-    public PlayerSoundManager sound;
 
     public static PlayerAttack instance;
     private void Awake()
@@ -29,7 +28,6 @@ public class PlayerAttack : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        sound = GameObject.FindGameObjectWithTag("PlayerSound").GetComponent<PlayerSoundManager>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         trigger.enabled = false;
         triggerB.enabled = false;
@@ -57,7 +55,7 @@ public class PlayerAttack : MonoBehaviour
     }
     public void ThrowKnife()
     {
-        sound.PlaySound("throwKnife");
+        FindObjectOfType<SoundManager>().Play("ThrowKnife");
         StartCoroutine(DelayThrow());
     }
     // Thời gian kiếm bắt đầu bay ra
@@ -69,7 +67,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack A ---------------------------------------------
     public void AttackA()
     {
-        sound.PlaySound("knifeAttack");
+        FindObjectOfType<SoundManager>().Play("KnifeAttack");
         StartCoroutine(DelayTriggerA());
     }
     // Bật tắt trigger A khi attack
@@ -83,7 +81,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack B ---------------------------------------------
     public void AttackB()
     {
-        sound.PlaySound("knifeAttack");
+        FindObjectOfType<SoundManager>().Play("KnifeAttack");
         StartCoroutine(DelayTriggerB());
     }
     // Bật tắt trigger B khi attack
@@ -97,7 +95,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack C ---------------------------------------------
     public void AttackC()
     {
-        sound.PlaySound("knifeAttack");
+        FindObjectOfType<SoundManager>().Play("KnifeAttack");
         StartCoroutine(DelayTriggerC());
     }
     // Bật tắt trigger C khi attack
@@ -111,7 +109,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack D ---------------------------------------------
     public void AttackD()
     {
-        sound.PlaySound("knifeAttack");
+        FindObjectOfType<SoundManager>().Play("KnifeAttack");
         StartCoroutine(DelayTriggerD());
     }
     // Bật tắt trigger D khi attack

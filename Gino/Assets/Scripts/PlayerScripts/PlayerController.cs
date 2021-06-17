@@ -17,14 +17,12 @@ public class PlayerController : MonoBehaviour
 
     private GameMaster gm;
 
-    public PlayerSoundManager sound;
     // Start is called before the first frame update
     void Start()
     {
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-        sound = GameObject.FindGameObjectWithTag("PlayerSound").GetComponent<PlayerSoundManager>();
         ourHealth = maxHealth;
     }
 
@@ -37,7 +35,7 @@ public class PlayerController : MonoBehaviour
         {
             if (grounded)
             {
-                sound.PlaySound("jump");
+                FindObjectOfType<SoundManager>().Play("Jump");
                 grounded = false;
                 r2.AddForce(Vector2.up * jumpPow);
             }
@@ -102,7 +100,7 @@ public class PlayerController : MonoBehaviour
     // Giảm máu tương đương lượng damage chuyền vào
     public void Damage(int damage)
     {
-        sound.PlaySound("dead");
+        FindObjectOfType<SoundManager>().Play("Dead");
         ourHealth -= damage;
         gameObject.GetComponent<Animation>().Play("Player_TakeDmg");
     }

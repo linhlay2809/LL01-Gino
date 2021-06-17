@@ -15,8 +15,6 @@ public class Enemy2 : MonoBehaviour
 
     public GameObject enemyDeathEF;
 
-    public SoundManager sound;
-
     public float speed = 50f, maxSpeed = 3f;
 
     public float delay = 0.2f, returnDelay = 0.2f;
@@ -28,7 +26,6 @@ public class Enemy2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
         scale = transform.localScale;
         anim = gameObject.GetComponent<Animator>();
         r2 = gameObject.GetComponent<Rigidbody2D>();
@@ -90,6 +87,7 @@ public class Enemy2 : MonoBehaviour
 
         if (Health <= 0)
         {
+            FindObjectOfType<SoundManager>().Play("EnemyDie");
             Destroy(gameObject);
             GameObject clone = Instantiate(enemyDeathEF, transform.position, transform.rotation);
             Destroy(clone, 0.5f);
@@ -116,7 +114,7 @@ public class Enemy2 : MonoBehaviour
     public void Attack()
     {
         attacking = true;
-        sound.PlaySound("enemy2Attack");
+        FindObjectOfType<SoundManager>().Play("Enemy2Attack");
     }
 
 }

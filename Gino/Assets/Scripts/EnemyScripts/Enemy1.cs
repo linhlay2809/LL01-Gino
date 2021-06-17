@@ -11,8 +11,6 @@ public class Enemy1 : MonoBehaviour
     public GameObject cone1;
     public GameObject cone2;
 
-    private SoundManager sound;
-
     public GameObject enemyDeathEF;
 
     private bool isLeft1;
@@ -31,7 +29,6 @@ public class Enemy1 : MonoBehaviour
         enemyAttack.enabled = false;
         enemyAttackR.enabled = false;
         anim = gameObject.GetComponent<Animator>();
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -81,7 +78,7 @@ public class Enemy1 : MonoBehaviour
         // Enemy Death
         if (Health <= 0)
         {
-            sound.audioSource.Stop();
+            FindObjectOfType<SoundManager>().Play("EnemyDie");
             Destroy(gameObject);
             GameObject clone = Instantiate(enemyDeathEF, transform.position, transform.rotation);
             Destroy(clone, 0.5f);
@@ -105,7 +102,7 @@ public class Enemy1 : MonoBehaviour
         // Kich hoạt tấn công bến trái
         if (attackLeft)
         {
-            sound.PlaySound("enemy1Attack");
+            FindObjectOfType<SoundManager>().Play("Enemy1Attack");
             attacking = true;
             delay = returnDelay;
             isLeft1 = true;
@@ -114,7 +111,7 @@ public class Enemy1 : MonoBehaviour
         // Kich hoạt tấn công bến phải
         if (!attackLeft)
         {
-            sound.PlaySound("enemy1Attack");
+            FindObjectOfType<SoundManager>().Play("Enemy1Attack");
             attacking = true;
             delay = returnDelay;
             isLeft1 = false;

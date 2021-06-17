@@ -5,11 +5,9 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     private GameMaster gm;
-    private SoundManager sound;
     // Start is called before the first frame update
     void Start()
     {
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
 
@@ -22,7 +20,7 @@ public class Coin : MonoBehaviour
     {
         if (col.isTrigger==false && col.CompareTag("Player"))
         {
-            sound.PlaySound("coin");
+            FindObjectOfType<SoundManager>().Play("Coin");
             gm.score += 1;
             Destroy(gameObject);
         }

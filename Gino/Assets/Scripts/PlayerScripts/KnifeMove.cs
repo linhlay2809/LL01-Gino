@@ -7,7 +7,6 @@ public class KnifeMove : MonoBehaviour
     public float speed = 40;
     public int damage = 30;
 
-    private SoundManager sound;
     public GameObject knifeEffect;
     Vector2 velocity;
 
@@ -15,7 +14,6 @@ public class KnifeMove : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
         velocity = new Vector2(speed * Time.deltaTime, 0);
     }
@@ -41,7 +39,7 @@ public class KnifeMove : MonoBehaviour
     {
         if (col.CompareTag("Enemy"))
         {
-            sound.PlaySound("throwKnifeAtive");
+            FindObjectOfType<SoundManager>().Play("ThrowKnifeEffect");
             col.SendMessageUpwards("Damage", damage);
             GameObject clone = Instantiate(knifeEffect, transform.position, transform.rotation);
             Destroy(clone, 0.4f);
@@ -49,7 +47,7 @@ public class KnifeMove : MonoBehaviour
         }
         if (col.CompareTag("Ground"))
         {
-            sound.PlaySound("throwKnifeAtive");
+            FindObjectOfType<SoundManager>().Play("ThrowKnifeEffect");
             GameObject clone = Instantiate(knifeEffect, transform.position, transform.rotation);
             Destroy(clone, 0.4f);
             Destroy(gameObject);

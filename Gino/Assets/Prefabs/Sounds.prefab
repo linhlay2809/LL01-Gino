@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2480874197415028765
+--- !u!1 &1461350081578263409
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2480874197415028752}
-  - component: {fileID: 2480874197415028755}
-  - component: {fileID: 2480874197415028754}
+  - component: {fileID: 1461350081578263420}
+  - component: {fileID: 1461350081578263422}
   m_Layer: 0
   m_Name: Sounds
   m_TagString: Sound
@@ -18,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2480874197415028752
+--- !u!4 &1461350081578263420
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2480874197415028765}
+  m_GameObject: {fileID: 1461350081578263409}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.031868, y: 9.638445, z: -52.539387}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,118 +31,61 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &2480874197415028755
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2480874197415028765}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &2480874197415028754
+--- !u!114 &1461350081578263422
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2480874197415028765}
+  m_GameObject: {fileID: 1461350081578263409}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdc67c85d6cae774fa40e3ca234170b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 0}
-  enemy3Attack: {fileID: 0}
-  knifeAttack: {fileID: 0}
-  jump: {fileID: 0}
-  dead: {fileID: 0}
-  enemy1Attack: {fileID: 0}
-  audioSource: {fileID: 0}
+  sounds:
+  - name: KnifeAttack
+    clip: {fileID: 8300000, guid: 231c367b9ddbce64eab61dbfb1c01831, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ThrowKnife
+    clip: {fileID: 8300000, guid: 974ac65cdc1a1364590f7b65b5f1081a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ThrowKnifeEffect
+    clip: {fileID: 8300000, guid: 757850c65aed70846b4acec4a776384e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 78e3a989b2de4794ebf0511cf4c849c8, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: 45cef93ed8a81d6458beb8d41542953a, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Enemy1Attack
+    clip: {fileID: 8300000, guid: d391ed4694e3a0e4481b7b7dbf2a8bff, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Enemy3Attack
+    clip: {fileID: 8300000, guid: 1c56464e97ee7864980594390621f648, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Enemy2Attack
+    clip: {fileID: 8300000, guid: ab7273502c9b4ce45bfdf239fef861a5, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 4f3cbe3cec86383478def1ed8de5a6c7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
