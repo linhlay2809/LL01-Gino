@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: 61ba39f27cb1a69429302880fc8cac27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8870899458758234310
+    second: HintUI_0
+  - first:
+      213: 6256898700183171733
+    second: HintUI_1
+  - first:
+      213: 3669395423330628474
+    second: HintUI_2
+  - first:
+      213: -8539457714977192943
+    second: HintUI_3
+  - first:
+      213: 8177250496608718050
+    second: HintUI_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HintUI_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 25
+        width: 278
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 132, y: -88}
+        - {x: 127, y: -92}
+        - {x: 121, y: -96}
+        - {x: 53, y: -96}
+        - {x: 31.83728, y: -95.772446}
+        - {x: 26, y: -94}
+        - {x: 19.680725, y: -94}
+        - {x: 15, y: -95}
+        - {x: 6, y: -96}
+        - {x: -72, y: -96}
+        - {x: -120, y: -96}
+        - {x: -126, y: -94}
+        - {x: -130, y: -89}
+        - {x: -134, y: -83}
+        - {x: -136, y: -79}
+        - {x: -136, y: 16}
+        - {x: -135, y: 24}
+        - {x: -134, y: 29}
+        - {x: -136, y: 35}
+        - {x: -136, y: 82}
+        - {x: -130, y: 88}
+        - {x: -119, y: 96}
+        - {x: -20, y: 96}
+        - {x: -14, y: 95}
+        - {x: -9, y: 95}
+        - {x: -7, y: 96}
+        - {x: 34, y: 96}
+        - {x: 47, y: 94}
+        - {x: 54, y: 93}
+        - {x: 61, y: 93}
+        - {x: 65, y: 96}
+        - {x: 121, y: 96}
+        - {x: 129, y: 90}
+        - {x: 134, y: 84}
+        - {x: 137, y: 79}
+        - {x: 137, y: -3.9142685}
+        - {x: 135, y: -20}
+        - {x: 135, y: -38}
+        - {x: 137, y: -43}
+        - {x: 137, y: -82}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c05d75ce04cb1b70800000000000000
+      internalID: 8870899458758234310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HintUI_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 354
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -41}
+        - {x: -9, y: -40}
+        - {x: -18, y: -37}
+        - {x: -26, y: -32}
+        - {x: -31, y: -27}
+        - {x: -35, y: -21}
+        - {x: -37, y: -16}
+        - {x: -39, y: -12}
+        - {x: -41, y: -5}
+        - {x: -41, y: 6}
+        - {x: -40, y: 8}
+        - {x: -39, y: 13}
+        - {x: -36, y: 19}
+        - {x: -32, y: 25}
+        - {x: -28, y: 30}
+        - {x: -23, y: 34}
+        - {x: -17, y: 37}
+        - {x: -12, y: 39}
+        - {x: -4, y: 41}
+        - {x: 6, y: 41}
+        - {x: 8, y: 40}
+        - {x: 16, y: 38}
+        - {x: 22, y: 35}
+        - {x: 26, y: 31}
+        - {x: 30, y: 27}
+        - {x: 34, y: 22}
+        - {x: 37, y: 17}
+        - {x: 39, y: 12}
+        - {x: 41, y: 6}
+        - {x: 41, y: -6}
+        - {x: 39, y: -12}
+        - {x: 38, y: -16}
+        - {x: 35, y: -22}
+        - {x: 32, y: -26}
+        - {x: 28, y: -30}
+        - {x: 24, y: -33}
+        - {x: 20, y: -36}
+        - {x: 15, y: -38}
+        - {x: 6, y: -41}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5927504a738f4d650800000000000000
+      internalID: 6256898700183171733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HintUI_2
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 244
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -41}
+        - {x: -9, y: -40}
+        - {x: -12.5, y: -39}
+        - {x: -18.5, y: -36}
+        - {x: -26.5, y: -31}
+        - {x: -31.5, y: -26}
+        - {x: -34.5, y: -21}
+        - {x: -37.5, y: -16}
+        - {x: -39.5, y: -12}
+        - {x: -41.5, y: -5}
+        - {x: -41.5, y: 7}
+        - {x: -39.5, y: 13}
+        - {x: -36.5, y: 19}
+        - {x: -32.5, y: 25}
+        - {x: -28.5, y: 30}
+        - {x: -23.5, y: 34}
+        - {x: -17.5, y: 37}
+        - {x: -12.5, y: 39}
+        - {x: -4, y: 41}
+        - {x: 8, y: 41}
+        - {x: 15.5, y: 38}
+        - {x: 21.5, y: 35}
+        - {x: 25.5, y: 32}
+        - {x: 29.5, y: 28}
+        - {x: 33.5, y: 23}
+        - {x: 36.5, y: 18}
+        - {x: 38.5, y: 13}
+        - {x: 40.5, y: 7}
+        - {x: 40.5, y: -6}
+        - {x: 39.5, y: -11}
+        - {x: 37.5, y: -16}
+        - {x: 34.5, y: -21}
+        - {x: 31.5, y: -25}
+        - {x: 27.5, y: -29}
+        - {x: 23.5, y: -33}
+        - {x: 18.5, y: -36}
+        - {x: 15, y: -38}
+        - {x: 6, y: -41}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f01c32bf4ce230800000000000000
+      internalID: 3669395423330628474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HintUI_3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 357
+        width: 283
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.5, y: -39.5}
+        - {x: 117.5, y: -41.5}
+        - {x: 35.5, y: -41.5}
+        - {x: 31.5, y: -39.5}
+        - {x: 15.5, y: -39.5}
+        - {x: -11.5, y: -41.5}
+        - {x: -115.5, y: -41.5}
+        - {x: -123.5, y: -38.5}
+        - {x: -126.5, y: -35.5}
+        - {x: -129.5, y: -29.5}
+        - {x: -132.5, y: -21.5}
+        - {x: -136.5, y: -11.5}
+        - {x: -138.5, y: -5.5}
+        - {x: -138.6913, y: 3.108307}
+        - {x: -137.5, y: 9.5}
+        - {x: -134.5, y: 16.5}
+        - {x: -130.5, y: 28.5}
+        - {x: -127.5, y: 35.5}
+        - {x: -124.5, y: 38.5}
+        - {x: -121.5, y: 40.5}
+        - {x: -118.5, y: 42.5}
+        - {x: -25.5, y: 42.5}
+        - {x: -22.5, y: 40.5}
+        - {x: -8.5, y: 40.5}
+        - {x: 3.5, y: 42.5}
+        - {x: 115.5, y: 42.5}
+        - {x: 120.5, y: 39.5}
+        - {x: 124.5, y: 36.5}
+        - {x: 127.5, y: 31.5}
+        - {x: 129.5, y: 25.5}
+        - {x: 132.5, y: 18.5}
+        - {x: 135.5, y: 10.5}
+        - {x: 137.5, y: 2.5}
+        - {x: 137.5, y: -2.5}
+        - {x: 133.5, y: -13.5}
+        - {x: 128.5, y: -26.5}
+        - {x: 124.5, y: -36.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114c054c370cd7980800000000000000
+      internalID: -8539457714977192943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HintUI_4
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 358
+        width: 85
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: -43}
+        - {x: 19.5, y: -43}
+        - {x: 15.5, y: -41}
+        - {x: 10.5, y: -43}
+        - {x: -32.5, y: -43}
+        - {x: -36.5, y: -40}
+        - {x: -40.5, y: -37}
+        - {x: -40.5, y: 19}
+        - {x: -39.5, y: 20}
+        - {x: -39.5, y: 25}
+        - {x: -40.5, y: 26}
+        - {x: -40.50003, y: 31.935303}
+        - {x: -37.5, y: 36}
+        - {x: -33.5, y: 39}
+        - {x: -5.5906982, y: 39}
+        - {x: -1.5, y: 37}
+        - {x: 2.5, y: 37}
+        - {x: 6.5, y: 39}
+        - {x: 34.5, y: 39}
+        - {x: 38.5, y: 35}
+        - {x: 41.5, y: 30}
+        - {x: 41.332336, y: 18.096954}
+        - {x: 40.5, y: 16}
+        - {x: 40.5, y: 12.089325}
+        - {x: 41.5, y: 10}
+        - {x: 41.5, y: -12}
+        - {x: 40.5, y: -14}
+        - {x: 40.50003, y: -19.164978}
+        - {x: 41.5, y: -21}
+        - {x: 41.5, y: -36}
+        - {x: 38.5, y: -40}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eccfb1700e6b7170800000000000000
+      internalID: 8177250496608718050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -67,7 +67,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack A ---------------------------------------------
     public void AttackA()
     {
-        FindObjectOfType<SoundManager>().Play("KnifeAttack");
+        FindObjectOfType<SoundManager>().Play("Attack1");
         StartCoroutine(DelayTriggerA());
     }
     // Bật tắt trigger A khi attack
@@ -81,7 +81,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack B ---------------------------------------------
     public void AttackB()
     {
-        FindObjectOfType<SoundManager>().Play("KnifeAttack");
+        FindObjectOfType<SoundManager>().Play("Attack2");
         StartCoroutine(DelayTriggerB());
     }
     // Bật tắt trigger B khi attack
@@ -95,7 +95,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack C ---------------------------------------------
     public void AttackC()
     {
-        FindObjectOfType<SoundManager>().Play("KnifeAttack");
+        FindObjectOfType<SoundManager>().Play("Attack3");
         StartCoroutine(DelayTriggerC());
     }
     // Bật tắt trigger C khi attack
@@ -109,7 +109,7 @@ public class PlayerAttack : MonoBehaviour
     // Attack D ---------------------------------------------
     public void AttackD()
     {
-        FindObjectOfType<SoundManager>().Play("KnifeAttack");
+        FindObjectOfType<SoundManager>().Play("Attack4");
         StartCoroutine(DelayTriggerD());
     }
     // Bật tắt trigger D khi attack
