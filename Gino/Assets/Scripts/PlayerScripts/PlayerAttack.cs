@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    public Animator anim;
+    [Header("Condition Attack")]
     public bool throwAttacking = false;
-
     public bool attacking = false;
 
+    [Header("Knife")]
     public GameObject knife;
     public Transform spawnKnife;
 
-    public Animator anim;
-
+    [Header("Attack Trigger")]
     public Collider2D trigger;
     public Collider2D triggerB;
     public Collider2D triggerC;

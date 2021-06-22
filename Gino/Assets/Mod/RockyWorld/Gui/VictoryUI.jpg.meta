@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: ae9b57ed50cbcb44cb8520f1c453ad3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5156403326027553740
+    second: VictoryUI_0
+  - first:
+      213: -6377187632102993912
+    second: VictoryUI_1
+  - first:
+      213: 6441391520817909688
+    second: VictoryUI_2
+  - first:
+      213: 970319271546043124
+    second: VictoryUI_3
+  - first:
+      213: -377253559047017267
+    second: VictoryUI_4
+  - first:
+      213: -7450119719946506399
+    second: VictoryUI_5
+  - first:
+      213: 2205567550388963946
+    second: VictoryUI_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VictoryUI_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 456
+        width: 390
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -191, y: -111}
+        - {x: -191, y: 109}
+        - {x: 190, y: 109}
+        - {x: 191, y: -111}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342c79ae76c078b0800000000000000
+      internalID: -5156403326027553740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 262
+        width: 225
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.5, y: -34.5}
+        - {x: -96.5, y: -31}
+        - {x: -99.5, y: -26}
+        - {x: -103.5, y: -19}
+        - {x: -107.5, y: -12}
+        - {x: -109.5, y: -9}
+        - {x: -109.58551, y: -5.1509094}
+        - {x: -111.5, y: -2}
+        - {x: -111.5, y: 4}
+        - {x: -108.5, y: 13}
+        - {x: -103.5, y: 23}
+        - {x: -97.5, y: 31}
+        - {x: -91.5, y: 36.5}
+        - {x: 92.5, y: 36.5}
+        - {x: 95.5, y: 34}
+        - {x: 98.5, y: 29}
+        - {x: 104.5, y: 19}
+        - {x: 110.5, y: 3.691162}
+        - {x: 110.5, y: -1.1028442}
+        - {x: 106.5, y: -12}
+        - {x: 100.5, y: -23}
+        - {x: 96.5, y: -30}
+        - {x: 92.5, y: -35}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf8091d57b646950800000000000000
+      internalID: 6441391520817909688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 477
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -35.5}
+        - {x: -55, y: -28.5}
+        - {x: -60, y: -18.5}
+        - {x: -66, y: -5.5}
+        - {x: -66, y: 3.5}
+        - {x: -60, y: 17.5}
+        - {x: -55, y: 26.5}
+        - {x: -48, y: 34.5}
+        - {x: 48, y: 34.5}
+        - {x: 53, y: 29.5}
+        - {x: 53, y: 27.5}
+        - {x: 59, y: 17.5}
+        - {x: 64, y: 6.5}
+        - {x: 64.00006, y: -3.5635986}
+        - {x: 61, y: -13.5}
+        - {x: 55, y: -24.5}
+        - {x: 48, y: -35.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fab73b8c34477d00800000000000000
+      internalID: 970319271546043124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 574
+        width: 136
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: -35.5}
+        - {x: -55, y: -28.5}
+        - {x: -60, y: -18.5}
+        - {x: -66, y: -5.5}
+        - {x: -66, y: 3.5}
+        - {x: -60, y: 17.5}
+        - {x: -55, y: 26.5}
+        - {x: -48, y: 34.5}
+        - {x: 48, y: 34.5}
+        - {x: 53, y: 29.5}
+        - {x: 53, y: 27.5}
+        - {x: 59, y: 17.5}
+        - {x: 64, y: 6.5}
+        - {x: 64.00006, y: -3.5635986}
+        - {x: 61, y: -13.5}
+        - {x: 55, y: -24.5}
+        - {x: 48, y: -35.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc20c603e9b3caf0800000000000000
+      internalID: -377253559047017267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 678
+        width: 269
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121.5, y: -14}
+        - {x: 114.5, y: -14}
+        - {x: 113.5, y: -22}
+        - {x: 107.5, y: -25}
+        - {x: 102.5, y: -25}
+        - {x: 99.5, y: -23}
+        - {x: 97.5, y: -26}
+        - {x: 92.5, y: -27}
+        - {x: 94.5, y: -29}
+        - {x: 94.5, y: -31}
+        - {x: 84.5, y: -31}
+        - {x: 80.5, y: -27}
+        - {x: -79.5, y: -27}
+        - {x: -82.5, y: -31}
+        - {x: -91.5, y: -31}
+        - {x: -93.5, y: -26}
+        - {x: -98.5, y: -23}
+        - {x: -99.5, y: -23}
+        - {x: -104.5, y: -25}
+        - {x: -108.5, y: -23}
+        - {x: -112.5, y: -19}
+        - {x: -113.5, y: -13}
+        - {x: -119.5, y: -13}
+        - {x: -125.5, y: -8}
+        - {x: -131.5, y: -1}
+        - {x: -131.5, y: 2}
+        - {x: -126.5, y: 8}
+        - {x: -120.5, y: 13}
+        - {x: -114.5, y: 13}
+        - {x: -113.5, y: 14}
+        - {x: -113.5, y: 17}
+        - {x: -111.5, y: 21}
+        - {x: -107.5, y: 25}
+        - {x: -103.5, y: 25}
+        - {x: -99.5, y: 23}
+        - {x: -94.5, y: 26}
+        - {x: -91.5, y: 26}
+        - {x: -94.5, y: 28}
+        - {x: -92.5, y: 30}
+        - {x: -83.5, y: 30}
+        - {x: -81.5, y: 29}
+        - {x: -77.5, y: 27}
+        - {x: 79.5, y: 27}
+        - {x: 81.5, y: 29}
+        - {x: 83.5, y: 30}
+        - {x: 91.5, y: 30}
+        - {x: 93.5, y: 28}
+        - {x: 94.12569, y: 25.041443}
+        - {x: 96.5, y: 25}
+        - {x: 99.5, y: 23}
+        - {x: 100.5, y: 24}
+        - {x: 108.5, y: 24}
+        - {x: 111.5, y: 22}
+        - {x: 113.5, y: 18}
+        - {x: 113.5, y: 15}
+        - {x: 114.5, y: 13}
+        - {x: 119.5, y: 13}
+        - {x: 121.5, y: 12}
+        - {x: 132.5, y: 0.5}
+        - {x: 132.5, y: -2.1955566}
+        - {x: 127.5, y: -9}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fa47e469bdb9890800000000000000
+      internalID: -7450119719946506399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 358
+        width: 225
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.13611, y: -35}
+        - {x: -96.5, y: -31}
+        - {x: -99.5, y: -26}
+        - {x: -103.5, y: -19}
+        - {x: -107.5, y: -12}
+        - {x: -109.5, y: -9}
+        - {x: -109.58551, y: -5.1509094}
+        - {x: -111.5, y: -2}
+        - {x: -111.5, y: 4}
+        - {x: -108.5, y: 13}
+        - {x: -103.5, y: 23}
+        - {x: -97.5, y: 31}
+        - {x: -91.5, y: 37}
+        - {x: 92.5, y: 37}
+        - {x: 95.5, y: 34}
+        - {x: 98.5, y: 29}
+        - {x: 104.5, y: 19}
+        - {x: 110.5, y: 3.691162}
+        - {x: 110.5, y: -1.1028442}
+        - {x: 106.5, y: -12}
+        - {x: 100.5, y: -23}
+        - {x: 96.5, y: -30}
+        - {x: 92.5, y: -35}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a00116000cb9e10800000000000000
+      internalID: 2205567550388963946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

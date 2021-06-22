@@ -8,6 +8,7 @@ public class Enemy1AI : MonoBehaviour
 {
     public Transform target;
 
+    [Header("Information")]
     public float speed = 200f;
     public float nextWaypointDistance = 3f;
 

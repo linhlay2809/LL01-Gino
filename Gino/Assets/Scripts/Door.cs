@@ -7,23 +7,19 @@ public class Door : MonoBehaviour
 {
     private GameMaster gm;
     public int sceneIndex;
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
             //Hiện text khi va chạm
-            gm.pressEText.text = "Press E To Enter";
+            gm.pressEText.text = "Press W To Enter";
         }
     }
 
@@ -32,9 +28,10 @@ public class Door : MonoBehaviour
         // Load scene mới
         if (collision.CompareTag("Player"))
         {
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKey(KeyCode.W))
             {
-                SceneManager.LoadScene(sceneIndex);
+                Time.timeScale = 0f;
+                anim.SetBool("NextLevel", true);
             }
         }
 

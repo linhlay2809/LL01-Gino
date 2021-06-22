@@ -5,18 +5,19 @@ using UnityEngine;
 public class Enemy1 : MonoBehaviour
 {
     private Animator anim;
-
+    [Header("Attack Trigger")]
     public Collider2D enemyAttack;
     public Collider2D enemyAttackR;
+
+    [Header("Cone")]
     public GameObject cone1;
     public GameObject cone2;
 
+    [Header("Dead Effect")]
     public GameObject enemyDeathEF;
 
     private bool isLeft1;
-
     public bool attacking = false;
-
     public float delay = 0.7f, returnDelay = 0.7f;
     public int Health = 100;
     Vector3 scale;

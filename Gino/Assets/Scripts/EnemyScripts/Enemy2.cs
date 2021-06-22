@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Enemy2 : MonoBehaviour
 {
-    public GameObject target;
-
     private Animator anim;
-
     private Rigidbody2D r2;
 
+    [Space(10)]
+    public GameObject target;
+
+    [Space(10)]
     public Collider2D enemyAttack;
     public GameObject cone;
-
     public GameObject enemyDeathEF;
 
+    [Space(10)]
     public float speed = 50f, maxSpeed = 3f;
-
     public float delay = 0.2f, returnDelay = 0.2f;
     public bool isTrigger;
     public bool attacking = false;

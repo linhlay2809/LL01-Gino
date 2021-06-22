@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class GameMaster : MonoBehaviour
 {
+    [Header("Information")]
     public int score;
     public int amountKnife = 3;
 
+    [Header("Texts")]
     public Text scoreText;
     public Text knifeText;
     public Text pressEText;

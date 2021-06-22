@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1461350081578263409
+--- !u!1 &5609099005642950687
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1461350081578263420}
-  - component: {fileID: 1461350081578263422}
+  - component: {fileID: 5609099005642950674}
+  - component: {fileID: 5609099005642950672}
   m_Layer: 0
   m_Name: Sounds
   m_TagString: Sound
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1461350081578263420
+--- !u!4 &5609099005642950674
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461350081578263409}
+  m_GameObject: {fileID: 5609099005642950687}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.031868, y: 9.638445, z: -52.539387}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,32 +31,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1461350081578263422
+--- !u!114 &5609099005642950672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461350081578263409}
+  m_GameObject: {fileID: 5609099005642950687}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdc67c85d6cae774fa40e3ca234170b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: KnifeAttack
-    clip: {fileID: 8300000, guid: 231c367b9ddbce64eab61dbfb1c01831, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
   - name: ThrowKnife
     clip: {fileID: 8300000, guid: 974ac65cdc1a1364590f7b65b5f1081a, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     source: {fileID: 0}
   - name: ThrowKnifeEffect
     clip: {fileID: 8300000, guid: 757850c65aed70846b4acec4a776384e, type: 3}
-    volume: 1
+    volume: 0.7
     pitch: 1
     source: {fileID: 0}
   - name: Jump
@@ -71,21 +66,46 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Enemy1Attack
     clip: {fileID: 8300000, guid: d391ed4694e3a0e4481b7b7dbf2a8bff, type: 3}
-    volume: 1
+    volume: 0.8
     pitch: 1
     source: {fileID: 0}
   - name: Enemy3Attack
     clip: {fileID: 8300000, guid: 1c56464e97ee7864980594390621f648, type: 3}
-    volume: 1
+    volume: 0.8
     pitch: 1
     source: {fileID: 0}
   - name: Enemy2Attack
     clip: {fileID: 8300000, guid: ab7273502c9b4ce45bfdf239fef861a5, type: 3}
-    volume: 1
+    volume: 0.8
     pitch: 1
     source: {fileID: 0}
   - name: Coin
     clip: {fileID: 8300000, guid: 4f3cbe3cec86383478def1ed8de5a6c7, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyDie
+    clip: {fileID: 8300000, guid: 98553fe34c15a6447869585392694452, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Attack1
+    clip: {fileID: 8300000, guid: 6a57ac5f5ecc4c64985591ea3e96f4dc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Attack2
+    clip: {fileID: 8300000, guid: b7933c5d4d7dde142a8c61b9fc86fdb9, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Attack3
+    clip: {fileID: 8300000, guid: 627dfd6f8abb76949a67b8f617a8c011, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Attack4
+    clip: {fileID: 8300000, guid: 2834ba5ae9c9abc46b0e2fd83c7db5f0, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

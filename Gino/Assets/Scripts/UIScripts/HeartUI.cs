@@ -14,13 +14,12 @@ public class HeartUI : MonoBehaviour
     public Image heartImg;
     public Image heartImg2;
     public Image heartImg3;
-    // Start is called before the first frame update
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (player.ourHealth >= 0)

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GroundCheck : MonoBehaviour
 {
-    public PlayerController player;
+    private PlayerController player;
     // Start is called before the first frame update
     void Start()
     {

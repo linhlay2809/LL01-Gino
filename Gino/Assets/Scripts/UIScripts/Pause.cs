@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     public static bool IsPaused = false;
-    public Animator transition;
-    private float transitionTime = 0.5f;
+    public Animator anim;
+    private float animTime = 0.5f;
+    void Start()
+    {
+        anim = gameObject.GetComponent<Animator>();
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,8 +33,8 @@ public class Pause : MonoBehaviour
     }
     public IEnumerator Resume()
     {
-        transition.SetBool("Pause", false);
-        yield return new WaitForSeconds(transitionTime);
+        anim.SetBool("Pause", false);
+        yield return new WaitForSeconds(animTime);
     }
     // Hien pauseUI len man hinh
     public void PauseGame()
@@ -41,31 +45,8 @@ public class Pause : MonoBehaviour
     }
     public IEnumerator StartPause()
     {
-        transition.SetBool("Pause", true);
+        anim.SetBool("Pause", true);
         yield return new WaitForSeconds(0.3f);
-    }
-    // RestartGame khi click vao nut restart trên màn hình PauseUI
-    public void RestartGame()
-    {
-        StartCoroutine(Restart(SceneManager.GetActiveScene().buildIndex));
-        Time.timeScale = 1f;
-    }
-    public IEnumerator Restart(int level)
-    {
-        transition.SetBool("Restart", true);
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(level);
-    }
-    // Quay về MainMenu khi click vao nut mainmenu trên màn hình PauseUI
-    public void MainMenuGame()
-    {
-        StartCoroutine(Restart(SceneManager.GetActiveScene().buildIndex - 1));
-        Time.timeScale = 1f;
-    }
-    public void MainMenuGame2()
-    {
-        StartCoroutine(Restart(SceneManager.GetActiveScene().buildIndex - 2));
-        Time.timeScale = 1f;
     }
 
 }

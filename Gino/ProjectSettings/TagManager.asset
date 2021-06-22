@@ -11,7 +11,7 @@ TagManager:
   - Coin
   - Cone
   - Sound
-  - PlayerSound
+  - GUI
   layers:
   - Default
   - TransparentFX

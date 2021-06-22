@@ -4,18 +4,28 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    [Header("Smooth Camera")]
     // Giá trị độ chậm chuyển động camera
-    public float smoothtimeX, smoothtimeY;
-    public Vector2 velocity;
+    public float smoothtimeX; 
+    public float smoothtimeY;
 
+    [Header("Min-Max POS")]
+    public Vector2 minPos; 
+    public Vector2 maxPos;
+    [Space(10)]
+    public bool bound;
+
+    [Header("Target")]
     public GameObject player;
 
-    public Vector2 minPos, maxPos;
-    public bool bound;
+    private PlayerController control;
+    private Vector2 velocity;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        control = player.GetComponent<PlayerController>();
     }
 
     // Update is called once per frame
@@ -25,8 +35,17 @@ public class CameraFollow : MonoBehaviour
     }
     void FixedUpdate()
     {
+        float posX;
         // Đặt posX theo trục X với mục tiêu là Player với độ chậm chuyển động smoothtimeX
-        float posX = Mathf.SmoothDamp(this.transform.position.x, player.transform.position.x, ref velocity.x, smoothtimeX);
+        if (control.faceRight)
+        {
+            posX = Mathf.SmoothDamp(this.transform.position.x, player.transform.position.x + 5f, ref velocity.x, smoothtimeX);
+        }
+        else
+        {
+            posX = Mathf.SmoothDamp(this.transform.position.x, player.transform.position.x - 5f, ref velocity.x, smoothtimeX);
+        }
+
         // Đặt posY theo trục Y với mục tiêu là Player với độ chậm chuyển động smoothtimeY
         float posY = Mathf.SmoothDamp(this.transform.position.y, player.transform.position.y + 2f, ref velocity.y, smoothtimeY);
         // Thay đổi vị trí camera theo posX, posY

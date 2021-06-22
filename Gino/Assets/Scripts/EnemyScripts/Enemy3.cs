@@ -5,25 +5,25 @@ using UnityEngine;
 public class Enemy3 : MonoBehaviour
 {
     private Animator anim;
-
-    public Collider2D enemyAttack;
-    public Collider2D enemyAttackR;
-
-    public GameObject cone1;
-    public GameObject cone2;
-
-    public GameObject enemyDeathEF;
-
     //Kiểm tra dkien bên trái enemy
     private bool isLeft1;
 
-    public bool attacking = false;
+    [Header("Enemy Trigger")]
+    public Collider2D enemyAttack;
+    public Collider2D enemyAttackR;
 
+    [Header("Cone")]
+    public GameObject cone1;
+    public GameObject cone2;
+
+    [Space(10)]
+    public GameObject enemyDeathEF;
+    public bool attacking = false;
     public float delay = 0.6f;
     // Đặt lại thời gian chờ
     public float returnDelay = 0.6f;
     public int Health = 100;
-    // Start is called before the first frame update
+
     void Start()
     {
         enemyAttack.enabled = false;
@@ -31,7 +31,6 @@ public class Enemy3 : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         // Tấn công bên trái
@@ -49,7 +48,6 @@ public class Enemy3 : MonoBehaviour
                     enemyAttack.enabled = true;
                     StartCoroutine(DelayAtack());
                 }
-
             }
             anim.SetBool("LeftAttack", attacking);
         }
@@ -69,7 +67,6 @@ public class Enemy3 : MonoBehaviour
                     // Delay attack
                     StartCoroutine(DelayAtack());
                 }
-
             }
             anim.SetBool("RightAttack", attacking);
         }

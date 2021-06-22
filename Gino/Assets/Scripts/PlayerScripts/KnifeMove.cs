@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class KnifeMove : MonoBehaviour
 {
+    [Header("Information")]
     public float speed = 40;
     public int damage = 30;
 
+    [Space(10)]
     public GameObject knifeEffect;
     Vector2 velocity;
 

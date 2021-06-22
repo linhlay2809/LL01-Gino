@@ -6,23 +6,28 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 50f, maxSpeed = 3, jumpPow = 800f, maxJumpPow = 200f;
-    public bool grounded = true, faceRight = true;
+    [Header("Information")]
+    public float speed = 50f;
+    public float maxSpeed = 3;
+    public float jumpPow = 800f;
+    public float maxJumpPow = 200f;
+    
+    [Header("Condition")]
+    public bool grounded = true;
+    public bool faceRight = true;
 
+    [Header("Heath")]
     public int ourHealth;
     public int maxHealth = 6;
 
     private Rigidbody2D r2;
     private Animator anim;
 
-    private GameMaster gm;
-
     // Start is called before the first frame update
     void Start()
     {
         r2 = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
-        gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         ourHealth = maxHealth;
     }
 
@@ -38,8 +43,7 @@ public class PlayerController : MonoBehaviour
                 FindObjectOfType<SoundManager>().Play("Jump");
                 grounded = false;
                 r2.AddForce(Vector2.up * jumpPow);
-            }
-                
+            }     
         }
     }
 
