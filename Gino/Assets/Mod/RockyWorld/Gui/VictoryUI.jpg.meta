@@ -53,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -390,6 +390,58 @@ TextureImporter:
       bones: []
       spriteID: a6a00116000cb9e10800000000000000
       internalID: 2205567550388963946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VictoryUI_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 684
+        width: 197
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.5, y: -27}
+        - {x: -87.5, y: -20}
+        - {x: -88.5, y: -13}
+        - {x: -92.5, y: -9}
+        - {x: -95.5, y: -2}
+        - {x: -96.5, y: 3}
+        - {x: -95.5, y: 7}
+        - {x: -92.5, y: 9}
+        - {x: -92.5, y: 12}
+        - {x: -91.5, y: 14}
+        - {x: -88.5, y: 15}
+        - {x: -88.5, y: 20}
+        - {x: -86.5, y: 25}
+        - {x: -82.5, y: 27}
+        - {x: 84.5, y: 27}
+        - {x: 87.5, y: 25}
+        - {x: 87.5, y: 20}
+        - {x: 88.5, y: 15}
+        - {x: 91.5, y: 12}
+        - {x: 92.5, y: 8}
+        - {x: 94.5, y: 7}
+        - {x: 96.5, y: 4}
+        - {x: 97.5, y: 0}
+        - {x: 96.5, y: -3}
+        - {x: 92.5, y: -7}
+        - {x: 92.5, y: -9}
+        - {x: 91.5, y: -12}
+        - {x: 88.5, y: -14}
+        - {x: 88.5, y: -18}
+        - {x: 86.5, y: -23}
+        - {x: 82.5, y: -27}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8009c7ae2adaf77a0800000000000000
+      internalID: -6377187632102993912
       vertices: []
       indices: 
       edges: []
