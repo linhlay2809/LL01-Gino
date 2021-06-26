@@ -7,7 +7,7 @@ public class GameMaster : MonoBehaviour
 {
     [Header("Information")]
     public int score;
-    public int amountKnife = 3;
+    public int amountKnife;
 
     [Header("Texts")]
     public Text scoreText;

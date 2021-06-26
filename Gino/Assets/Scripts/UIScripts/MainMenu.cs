@@ -7,10 +7,15 @@ public class MainMenu : MonoBehaviour
 {
     public Animator guiAnim;
     public float transitionTime = 1f;
-
+    public AudioSource audioS;
+    public float musicVolume;
     private void Start()
     {
         guiAnim = GameObject.FindGameObjectWithTag("GUI").GetComponent<Animator>();
+    }
+    private void Update()
+    {
+        audioS.volume = musicVolume;
     }
     // Dung de chuyen scene vao playgame
     public void PlayGame()
@@ -36,6 +41,9 @@ public class MainMenu : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         
     }
-
+    public void Volume(float volume)
+    {
+        musicVolume = volume;
+    }
 
 }

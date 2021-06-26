@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class UI : MonoBehaviour
 {
     public Animator anim;
     public Animator guiAnim;
-
+    GameMaster gm;
     void Start()
     {
+        gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
         guiAnim = GameObject.FindGameObjectWithTag("GUI").GetComponent<Animator>();
         anim = gameObject.GetComponent<Animator>();
     }
@@ -51,5 +53,14 @@ public class UI : MonoBehaviour
         anim.SetBool("NextLevel", false);
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(level);
+    }
+    public void SaveData()
+    {
+        UnitData dt = new UnitData();
+        dt.knife = gm.amountKnife;
+        string json = JsonUtility.ToJson(dt);
+        Debug.Log(json);
+
+        File.WriteAllText(Application.dataPath + "/saveFile.json", json);
     }
 }
