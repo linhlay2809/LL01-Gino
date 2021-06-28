@@ -17356,7 +17356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smoothtimeX: 0.5
   smoothtimeY: 0
-  minPos: {x: -0.11, y: 7.84}
+  minPos: {x: -0.29, y: 7.84}
   maxPos: {x: 60.1, y: 12.1}
   bound: 1
   player: {fileID: 0}
@@ -17411,7 +17411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: 7.84, z: -10}
+  m_LocalPosition: {x: -0.29, y: 7.84, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1158911931}
