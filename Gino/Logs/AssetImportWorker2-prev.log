@@ -1,0 +1,106 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 8043 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Tools\Unity\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Tools/GitHub/Gino/Gino
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62161
+Successfully changed project path to: D:/Tools/GitHub/Gino/Gino
+D:/Tools/GitHub/Gino/Gino
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 58.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path D:/Tools/Unity/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Tools/GitHub/Gino/Gino/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   
+    VRAM:     1983 MB
+    Driver:   27.21.14.6231
+Initialize mono
+Mono path[0] = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Tools/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Tools/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001097 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 99.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001176 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2481.
+Total: 3.606900 ms (FindLiveObjects: 0.565700 ms CreateObjectMapping: 0.565800 ms MarkObjects: 2.329600 ms  DeleteObjects: 0.143600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Mod/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset
+  artifactKey: Guid(ce970816794dc4a6c8b5acdbc5953551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/AstarPathfindingProject/ExampleScenes/Example2_Terrain/Pathfinding_Terrain.asset using Guid(ce970816794dc4a6c8b5acdbc5953551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Received signal SIGSEGV
+Stack trace:
+0x00007ff7ee34d82a (Unity) CreateAssetToGUIDMappingV2
+0x00007ff7ee2bcac0 (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x00007ff7ed0d2665 (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00007ff7ed0d1320 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00007ff7ed0ce2cc (Unity) SplatDatabase::AwakeFromLoad
+0x00007ff7ed118d36 (Unity) TerrainData::AwakeFromLoad
+0x00007ff7ecc8aa8f (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x00007ff7ecc8b3e2 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7ecc8b56a (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x00007ff7ecc1810e (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x00007ff7ecc18b27 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x00007ff7ecc1c0b3 (Unity) PersistentManager::ReadObject
+0x00007ff7ee2b5471 (Unity) WritePreviews
+0x00007ff7ee2af32e (Unity) PreviewImporter::GenerateAssetData
+0x00007ff7ee3c3cd9 (Unity) ImportToObjects
+0x00007ff7ee3c2b48 (Unity) AssetImportWorker::Import
+0x00007ff7ee321fef (Unity) <lambda_77c748ffdfab40a7d87ea62709a69e39>::operator()
+0x00007ff7ee3ed662 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff7ee3ef7c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff7ee3f2f4e (Unity) asio::io_service::run
+0x00007ff7ee368fd0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff7ee369020 (Unity) RunAssetImporterV2
+0x00007ff7ed874266 (Unity) Application::InitializeProject
+0x00007ff7ee1f4bb2 (Unity) WinMain
+0x00007ff7f0072a36 (Unity) __scrt_common_main_seh
+0x00007ffc0b867034 (KERNEL32) BaseThreadInitThunk
+0x00007ffc0c0a2651 (ntdll) RtlUserThreadStart
+
