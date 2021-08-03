@@ -5,6 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     private GameMaster gm;
+    [SerializeField] private int changeScore;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,7 @@ public class Coin : MonoBehaviour
         if (col.isTrigger==false && col.CompareTag("Player"))
         {
             FindObjectOfType<SoundManager>().Play("Coin");
-            gm.score += 1;
+            gm.score += changeScore;
             Destroy(gameObject);
         }
     }

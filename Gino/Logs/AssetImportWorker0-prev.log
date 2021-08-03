@@ -15,11 +15,11 @@ D:/Tools/GitHub/Gino/Gino
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65317
+51483
 Successfully changed project path to: D:/Tools/GitHub/Gino/Gino
 D:/Tools/GitHub/Gino/Gino
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path D:/Tools/Unity/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,46 +35,570 @@ Initialize mono
 Mono path[0] = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Tools/Unity/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Tools/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Tools/Unity/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001271 seconds.
+Registered in 0.004108 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 93.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.581 seconds
+- Completed reload, in  2.616 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002993 seconds.
+Registered in 0.004884 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.114 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2028 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 98.4 MB.
 System memory in use after: 98.4 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2481.
-Total: 3.917000 ms (FindLiveObjects: 0.583000 ms CreateObjectMapping: 0.329800 ms MarkObjects: 2.803900 ms  DeleteObjects: 0.198700 ms)
+Total: 3.658200 ms (FindLiveObjects: 0.242500 ms CreateObjectMapping: 0.166500 ms MarkObjects: 3.155800 ms  DeleteObjects: 0.092300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/GameMaster.cs
-  artifactKey: Guid(c54f582a8fe931f45a3e762e03f14550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameMaster.cs using Guid(c54f582a8fe931f45a3e762e03f14550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f7759c386418e9b9cc8bb13867709') in 0.036238 seconds
-  Import took 0.042606 seconds .
+  path: Assets/Mod/RockyWorld/Gui/HintUI.jpg
+  artifactKey: Guid(61ba39f27cb1a69429302880fc8cac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/HintUI.jpg using Guid(61ba39f27cb1a69429302880fc8cac27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dcf7c4ba6231a6182d1858b4da0e0c') in 0.279417 seconds
+  Import took 0.286523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_06.png
+  artifactKey: Guid(c7a92e72f5e768440b16781bbf2f0714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_06.png using Guid(c7a92e72f5e768440b16781bbf2f0714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088d4edaf89e623ebd7461867146d072') in 0.037644 seconds
+  Import took 0.044527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Mod/RockyWorld/Gui/ButtonUI.jpg
+  artifactKey: Guid(45ce3e9045072c7418a0c7417da0c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/ButtonUI.jpg using Guid(45ce3e9045072c7418a0c7417da0c0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcba8d85c9a25a57cb18ee8af652c686') in 0.047405 seconds
+  Import took 0.053388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small04.png
+  artifactKey: Guid(58b4fa4819c36c142a2a1d58a9d21c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small04.png using Guid(58b4fa4819c36c142a2a1d58a9d21c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a962d849f867cdbd51f554505d705988') in 0.037537 seconds
+  Import took 0.044246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger08.png
+  artifactKey: Guid(df8f365ca75215c4392db0c93d03888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger08.png using Guid(df8f365ca75215c4392db0c93d03888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eb88a4dbd9422e40972010fd7fd394') in 0.028887 seconds
+  Import took 0.037606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Mod/RockyWorld/Gui/OptionUI.jpg
+  artifactKey: Guid(0f1d760b32233c848bdcdbf8ce2b7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/OptionUI.jpg using Guid(0f1d760b32233c848bdcdbf8ce2b7c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562c89c99bcfc688240891354cd71ceb') in 0.044797 seconds
+  Import took 0.050840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Mod/RockyWorld/main_lev_build.png
+  artifactKey: Guid(7b98e6bc6b8ddaf41acc635a11dc0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/main_lev_build.png using Guid(7b98e6bc6b8ddaf41acc635a11dc0076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5fa28e933a7444fdd5c5f7070b9fc6') in 2.818281 seconds
+  Import took 2.831827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger03.png
+  artifactKey: Guid(4c457800174ece24ea2c7342bff928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger03.png using Guid(4c457800174ece24ea2c7342bff928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb40e0fc45410a423ba2d9a2b78b56e') in 0.017804 seconds
+  Import took 0.022191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/Mod/RockyWorld/Effects/hit_effect_sheet.png
+  artifactKey: Guid(46e73bd962d36ad4a81c56ff31548ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Effects/hit_effect_sheet.png using Guid(46e73bd962d36ad4a81c56ff31548ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8bf49485401f164c6bda40d88f9789') in 0.024211 seconds
+  Import took 0.029837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_05.png
+  artifactKey: Guid(657d546b3e88dbc429fa96ccf4921130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_05.png using Guid(657d546b3e88dbc429fa96ccf4921130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5716ee2e3176a217a0adde9701b6ccc5') in 0.023043 seconds
+  Import took 0.028786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_04.png
+  artifactKey: Guid(3994a3efda00bde43b8ab8dcac8bc20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_04.png using Guid(3994a3efda00bde43b8ab8dcac8bc20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b794bfaea805c58042220370436e4d') in 0.019887 seconds
+  Import took 0.025610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Mod/RockyWorld/other_lev_build.png
+  artifactKey: Guid(dbf409b6de656f84d8290f8078304b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/other_lev_build.png using Guid(dbf409b6de656f84d8290f8078304b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd4a2948b49c25f85a9318d9e679aba') in 0.032918 seconds
+  Import took 0.039780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Mod/RockyWorld/background3.png
+  artifactKey: Guid(5d3e71112be2fd44f9c37c93cdfd5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/background3.png using Guid(5d3e71112be2fd44f9c37c93cdfd5c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ceabaf012826601fd47ed019081517') in 0.025879 seconds
+  Import took 0.033060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger07.png
+  artifactKey: Guid(7afaa0d3158bcd143b53f18e25977432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger07.png using Guid(7afaa0d3158bcd143b53f18e25977432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8c3d71cf4622edfa927b6238835e7b') in 0.021565 seconds
+  Import took 0.026819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Mod/RockyWorld/Icon.png
+  artifactKey: Guid(79926877662173542bd19004ec56ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Icon.png using Guid(79926877662173542bd19004ec56ea2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebf227cedfd0eb3bcd9a6283704418f') in 0.023917 seconds
+  Import took 0.028362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small05.png
+  artifactKey: Guid(712aa187f43a08c4fb91519d4f5542bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small05.png using Guid(712aa187f43a08c4fb91519d4f5542bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffadd01dcb1b9f41ffb9ca69cb3534f') in 0.020545 seconds
+  Import took 0.027887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Mod/RockyWorld/Gui/Gui.png
+  artifactKey: Guid(889951e9407ea0a4f85b0a60c639cf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/Gui.png using Guid(889951e9407ea0a4f85b0a60c639cf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8e6d0d7f28f6053539b694877922d9') in 0.033801 seconds
+  Import took 0.039037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Mod/RockyWorld/door.png
+  artifactKey: Guid(f9bbe4f055f891942a49de00c0ed0bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/door.png using Guid(f9bbe4f055f891942a49de00c0ed0bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d0e457fd673ca2b2de4628c25ac57') in 0.016401 seconds
+  Import took 0.020849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Mod/RockyWorld/background1.png
+  artifactKey: Guid(44330770cc81c274b9c1d071aa525a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/background1.png using Guid(44330770cc81c274b9c1d071aa525a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fd72d5e913c48124b92f2e042a549d') in 0.017090 seconds
+  Import took 0.022651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Mod/RockyWorld/Gui/VictoryUI.jpg
+  artifactKey: Guid(ae9b57ed50cbcb44cb8520f1c453ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/VictoryUI.jpg using Guid(ae9b57ed50cbcb44cb8520f1c453ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7924a5981b73ec88a9d30354f8522d') in 0.060678 seconds
+  Import took 0.066553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Mod/RockyWorld/Effects/destr_effect_sheet.png
+  artifactKey: Guid(e1a490be52b5ed244840d3c91d79e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Effects/destr_effect_sheet.png using Guid(e1a490be52b5ed244840d3c91d79e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562cebbe71cf3e4db5e91314aa260cf2') in 0.037094 seconds
+  Import took 0.040986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger02.png
+  artifactKey: Guid(37ef93b5f19573b4698a4b1b93a73003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger02.png using Guid(37ef93b5f19573b4698a4b1b93a73003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01307385d9877335abe4f455cd8d1b60') in 0.017294 seconds
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_01.png
+  artifactKey: Guid(063624461e0b0dd4e99552fa4e58ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_01.png using Guid(063624461e0b0dd4e99552fa4e58ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5239b6caa34395315c45339bdd53d532') in 0.019699 seconds
+  Import took 0.023845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart04.png
+  artifactKey: Guid(0e8ec85d4bccdc3469ef1fb9fb3eba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart04.png using Guid(0e8ec85d4bccdc3469ef1fb9fb3eba9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abbca94ad197838af7af2e5c355ed58') in 0.017692 seconds
+  Import took 0.024205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big.png
+  artifactKey: Guid(f619e92844e534f4ab5a65e23fe9d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big.png using Guid(f619e92844e534f4ab5a65e23fe9d9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2789fe7505c2a38ac83b52ad3691960a') in 0.018050 seconds
+  Import took 0.022931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart06.png
+  artifactKey: Guid(fb30bc15ae2863743b57c872661dd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart06.png using Guid(fb30bc15ae2863743b57c872661dd470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21fa628d730d1a1d3e3f56103e420722') in 0.028111 seconds
+  Import took 0.033634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Mod/RockyWorld/backgroundMenu.png
+  artifactKey: Guid(f33603cbf2955204fb93d2a622137f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/backgroundMenu.png using Guid(f33603cbf2955204fb93d2a622137f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e54e3586927fe7dc3b652db69e616a7') in 0.029797 seconds
+  Import took 0.037046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger06.png
+  artifactKey: Guid(bf46493ed1936d641bc95c9409477891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger06.png using Guid(bf46493ed1936d641bc95c9409477891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de77fdbd0205cfa7aa39b99d39134ab') in 0.023180 seconds
+  Import took 0.031369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger05.png
+  artifactKey: Guid(1219618d65a3d744abd09dae16780a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger05.png using Guid(1219618d65a3d744abd09dae16780a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc40b61cc4c21f7646397be8d66d4539') in 0.025475 seconds
+  Import took 0.032517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small.png
+  artifactKey: Guid(4f61beacbefc50c43a40af5ca1e90ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small.png using Guid(4f61beacbefc50c43a40af5ca1e90ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68e39f46ef92195cc4ed8b505efde49') in 0.025321 seconds
+  Import took 0.031784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Mod/RockyWorld/background2.png
+  artifactKey: Guid(c554faeacaf8ec441bc7120f822bd229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/background2.png using Guid(c554faeacaf8ec441bc7120f822bd229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e998f2a3dba892dbe7045767be27290') in 0.022095 seconds
+  Import took 0.027960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_02.png
+  artifactKey: Guid(e37e2b2995f988d4ea7e9c16e11a4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_02.png using Guid(e37e2b2995f988d4ea7e9c16e11a4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f701c0d2c908a6c742775701d1bd1c') in 0.018179 seconds
+  Import took 0.023777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart03.png
+  artifactKey: Guid(1342c3d902ac2d54ab794d079effe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart03.png using Guid(1342c3d902ac2d54ab794d079effe897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b87056a1ca391294e40bf2cefb3639d') in 0.018425 seconds
+  Import took 0.024564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_big_03.png
+  artifactKey: Guid(77029d18a2886b441a6a888ae5eb4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_big_03.png using Guid(77029d18a2886b441a6a888ae5eb4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fbf71f8ec22940c6876168bde5627f') in 0.019571 seconds
+  Import took 0.025134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger01.png
+  artifactKey: Guid(997fbc98f8eb96e409cb04b3e2cfbde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger01.png using Guid(997fbc98f8eb96e409cb04b3e2cfbde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596f9c521fb36b56625399fb710bac2') in 0.019689 seconds
+  Import took 0.024383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small01.png
+  artifactKey: Guid(0a7e98034829d214bba821cc72ef7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small01.png using Guid(0a7e98034829d214bba821cc72ef7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77aec17b99993a51e42ccb12a1a87ce7') in 0.018725 seconds
+  Import took 0.024658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart02.png
+  artifactKey: Guid(fb6b46b5b7fb8c14cb2db7a3183fea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart02.png using Guid(fb6b46b5b7fb8c14cb2db7a3183fea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5f0fe7d442e73d1440c0e4d1af3b1') in 0.019845 seconds
+  Import took 0.025771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart05.png
+  artifactKey: Guid(5ffb421aeaf64fb459f068c8461d12d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart05.png using Guid(5ffb421aeaf64fb459f068c8461d12d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cd8739a2a3e3b652cc1f523341dace') in 0.019533 seconds
+  Import took 0.024059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small02.png
+  artifactKey: Guid(943641d0d8121bb41a6b66c10ae0d2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small02.png using Guid(943641d0d8121bb41a6b66c10ae0d2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a569588b577278bd24a74f0f60aa36') in 0.017504 seconds
+  Import took 0.022918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/heart01.png
+  artifactKey: Guid(9bda7e894091f14409ee8c6094b101e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/heart01.png using Guid(9bda7e894091f14409ee8c6094b101e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d642a570ddf83eaff6c0b15fc63e3d') in 0.018177 seconds
+  Import took 0.023548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/dagger04.png
+  artifactKey: Guid(7be49e7a5ed265d4cbf5ac49fe65fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/dagger04.png using Guid(7be49e7a5ed265d4cbf5ac49fe65fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1dc567b2152f5c271027f9587d50a6') in 0.020477 seconds
+  Import took 0.025656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Mod/RockyWorld/Gui/UI.jpg
+  artifactKey: Guid(6a03e69af8cbb014397172e3d8aedadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Gui/UI.jpg using Guid(6a03e69af8cbb014397172e3d8aedadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7587c34ed25e05f617fae40088a4623') in 0.032838 seconds
+  Import took 0.038200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Mod/RockyWorld/Collectible/diamond_small03.png
+  artifactKey: Guid(0e5605a66c968ea4282bbfca8f8781e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Collectible/diamond_small03.png using Guid(0e5605a66c968ea4282bbfca8f8781e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78fac97d03e8fa6062e3a325d2f1294') in 0.019311 seconds
+  Import took 0.024185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424297 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/attack_in_jump_sheet.png
+  artifactKey: Guid(6953fe0739b6e16489176ba1ccc2f29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/attack_in_jump_sheet.png using Guid(6953fe0739b6e16489176ba1ccc2f29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c24b9d8937b272092d058d19667b1d') in 0.045366 seconds
+  Import took 0.050582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/hit,death_sheet.png
+  artifactKey: Guid(d795243594ec79e43835a79721138c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/hit,death_sheet.png using Guid(d795243594ec79e43835a79721138c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aab5f52b9a1b11bde232d633f67e267') in 0.059565 seconds
+  Import took 0.063863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/throw_attack_sheet.png
+  artifactKey: Guid(6b07d2705985c21429db66a160242dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/throw_attack_sheet.png using Guid(6b07d2705985c21429db66a160242dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e8fd53f3c70935e33afda107781401') in 0.058608 seconds
+  Import took 0.062977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/idle,run,jump_sheet.png
+  artifactKey: Guid(05cb44b332ff7bf428c4c5eff18d9211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/idle,run,jump_sheet.png using Guid(05cb44b332ff7bf428c4c5eff18d9211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ae47d4a6d8d9cb03c8c5e454e2b447') in 0.089669 seconds
+  Import took 0.095067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/throw_dagger_sheet.png
+  artifactKey: Guid(1fd1e5f61e0e7564bb1934f606dc3007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/throw_dagger_sheet.png using Guid(1fd1e5f61e0e7564bb1934f606dc3007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc42fb700c3f33ed49213fd70f139ab6') in 0.037698 seconds
+  Import took 0.044826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/slide_sheet.png
+  artifactKey: Guid(9365cfdbee5d9af4899e74e4fbdc07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/slide_sheet.png using Guid(9365cfdbee5d9af4899e74e4fbdc07c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c86cac17a6002906d164424462eb0ec') in 0.036031 seconds
+  Import took 0.044547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/attacks_sheet.png
+  artifactKey: Guid(1eefd0a0ac085c4448ee80da34c085f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/attacks_sheet.png using Guid(1eefd0a0ac085c4448ee80da34c085f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc7debd3a48f350ebc9232f2307c7e') in 0.094751 seconds
+  Import took 0.099815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/ledge_grab_sheet.png
+  artifactKey: Guid(33362c2f7501336478e434e263df1049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/ledge_grab_sheet.png using Guid(33362c2f7501336478e434e263df1049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9718949d3a5007d6ba68fc73cf986d86') in 0.023095 seconds
+  Import took 0.027892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.495090 seconds.
+  path: Assets/Mod/RockyWorld/Sprites/GinoCharacter/idle,run,jump_sheet.png
+  artifactKey: Guid(05cb44b332ff7bf428c4c5eff18d9211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mod/RockyWorld/Sprites/GinoCharacter/idle,run,jump_sheet.png using Guid(05cb44b332ff7bf428c4c5eff18d9211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db279c4580ca775b7158a9fdb65204') in 0.083751 seconds
+  Import took 0.090209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5537.515930 seconds.
+  path: Assets/Animaton/AniGUI/NextLV_UI.controller
+  artifactKey: Guid(9b6054cd11fc51c44949c8399a0f8e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaton/AniGUI/NextLV_UI.controller using Guid(9b6054cd11fc51c44949c8399a0f8e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c39967bd0941999f78f871818b30922') in 0.345277 seconds
+  Import took 0.616426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.356843 seconds.
+  path: Assets/Animaton/AniPlayer/Player.controller
+  artifactKey: Guid(76dfa6b295a46dc47ad925d542073136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animaton/AniPlayer/Player.controller using Guid(76dfa6b295a46dc47ad925d542073136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f4f4b923ac87d76d681e313c9aada5') in 0.056498 seconds
+  Import took 0.062619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 972.762283 seconds.
+  path: Assets/Scenes/Scene2.unity
+  artifactKey: Guid(dce51329a5bda2f4d91a6b9314f62a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene2.unity using Guid(dce51329a5bda2f4d91a6b9314f62a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4a577ebe34fdb2f6f82be4443d31d6') in 0.026540 seconds
+  Import took 0.039302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 757.405105 seconds.
+  path: Assets/Scenes/Tutorial.unity
+  artifactKey: Guid(09ea6fb2de7ec1a49ae75a018ad00512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Tutorial.unity using Guid(09ea6fb2de7ec1a49ae75a018ad00512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467404ff86a0c457eb778046b33bfa2c') in 0.014764 seconds
+  Import took 0.023581 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 3.883200 ms (FindLiveObjects: 0.673500 ms CreateObjectMapping: 0.152700 ms MarkObjects: 2.857900 ms  DeleteObjects: 0.196700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 2.382500 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.075700 ms MarkObjects: 1.985700 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 2.030700 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.078700 ms MarkObjects: 1.635200 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.7 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 2.745500 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.065400 ms  DeleteObjects: 0.135500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

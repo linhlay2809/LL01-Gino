@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScollBG : MonoBehaviour
 {
     private PlayerController player;
+    [SerializeField] private float speedScoll = 0.2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,6 @@ public class ScollBG : MonoBehaviour
         Vector2 offset = GetComponent<MeshRenderer>().material.mainTextureOffset;
         // Di chuyển background theo Player
         offset.x = player.transform.position.x;
-        GetComponent<MeshRenderer>().material.mainTextureOffset = offset * Time.deltaTime / 0.4f;
+        GetComponent<MeshRenderer>().material.mainTextureOffset = offset * Time.deltaTime / speedScoll;
     }
 }

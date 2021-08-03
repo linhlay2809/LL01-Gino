@@ -60,7 +60,6 @@ public class UI : MonoBehaviour
         dt.knife = gm.amountKnife;
         string json = JsonUtility.ToJson(dt);
         Debug.Log(json);
-
         File.WriteAllText(Application.dataPath + "/saveFile.json", json);
     }
 }

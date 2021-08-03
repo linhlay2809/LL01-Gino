@@ -33,7 +33,7 @@ public class CameraFollow : MonoBehaviour
     {
         
     }
-    void FixedUpdate()
+    void LateUpdate()
     {
         float posX;
         // Đặt posX theo trục X với mục tiêu là Player với độ chậm chuyển động smoothtimeX

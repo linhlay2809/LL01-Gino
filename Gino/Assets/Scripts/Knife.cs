@@ -5,11 +5,9 @@ using UnityEngine;
 public class Knife : MonoBehaviour
 {
     private GameMaster gm;
-    private SoundManager sound;
     // Start is called before the first frame update
     void Start()
     {
-        sound = GameObject.FindGameObjectWithTag("Sound").GetComponent<SoundManager>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
 
@@ -24,7 +22,7 @@ public class Knife : MonoBehaviour
         {
             if (col.isTrigger == false && col.CompareTag("Player"))
             {
-
+                FindObjectOfType<SoundManager>().Play("Coin");
                 gm.amountKnife += 1;
                 Destroy(gameObject);
             }
