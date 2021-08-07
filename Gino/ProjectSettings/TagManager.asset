@@ -55,6 +55,9 @@ TagManager:
   - name: Enemy
     uniqueID: 1757030481
     locked: 0
+  - name: Effect
+    uniqueID: 1496869185
+    locked: 0
   - name: Player
     uniqueID: 1370870467
     locked: 0

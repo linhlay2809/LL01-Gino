@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 20
+  attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
 --- !u!1 &1396019888496692757
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +154,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1370870467
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 3296168606836165797, guid: 05cb44b332ff7bf428c4c5eff18d9211, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -271,7 +272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2828afb785a65a4193f32b7d1d15c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!114 &1396019888496692748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,11 +284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417f4d2268ff04348b5286e28a000df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   throwAttacking: 0
   attacking: 0
-  knife: {fileID: 4313173064227625722, guid: 698f5dcb7fde8c44d929fac568aa2e12, type: 3}
+  knife: {fileID: 4313173064227625722, guid: e2ccf9c166c18ef46a6b4ab08cdd10f7, type: 3}
   spawnKnife: {fileID: 4974785063099706137}
-  anim: {fileID: 0}
   trigger: {fileID: 1396019887960011234}
   triggerB: {fileID: 4974785063433830308}
   triggerC: {fileID: 4974785063545944938}
@@ -429,6 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 30
+  attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
 --- !u!1 &4974785063545944939
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,6 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 40
+  attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
 --- !u!1 &4974785064025638938
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,3 +573,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 50
+  attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}

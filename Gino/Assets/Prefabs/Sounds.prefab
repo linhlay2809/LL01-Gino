@@ -59,6 +59,21 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: Attack
+    clip: {fileID: 8300000, guid: 80bd4d23742123344b94c5bae0d27270, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: MagicAttack
+    clip: {fileID: 8300000, guid: 2841c5f13527418449e80118ffe687af, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 29e1423bc0fdc9b4b927eabebc337a72, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
   - name: Dead
     clip: {fileID: 8300000, guid: 45cef93ed8a81d6458beb8d41542953a, type: 3}
     volume: 1
@@ -79,33 +94,13 @@ MonoBehaviour:
     volume: 0.8
     pitch: 1
     source: {fileID: 0}
-  - name: Coin
-    clip: {fileID: 8300000, guid: 4f3cbe3cec86383478def1ed8de5a6c7, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
   - name: EnemyDie
     clip: {fileID: 8300000, guid: 98553fe34c15a6447869585392694452, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
-  - name: Attack1
-    clip: {fileID: 8300000, guid: 6a57ac5f5ecc4c64985591ea3e96f4dc, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: Attack2
-    clip: {fileID: 8300000, guid: b7933c5d4d7dde142a8c61b9fc86fdb9, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: Attack3
-    clip: {fileID: 8300000, guid: 627dfd6f8abb76949a67b8f617a8c011, type: 3}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
-  - name: Attack4
-    clip: {fileID: 8300000, guid: 2834ba5ae9c9abc46b0e2fd83c7db5f0, type: 3}
+  - name: Coin
+    clip: {fileID: 8300000, guid: 4f3cbe3cec86383478def1ed8de5a6c7, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
