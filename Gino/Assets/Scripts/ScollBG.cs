@@ -12,11 +12,6 @@ public class ScollBG : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void FixedUpdate()
     {
         Vector2 offset = GetComponent<MeshRenderer>().material.mainTextureOffset;

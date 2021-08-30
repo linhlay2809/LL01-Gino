@@ -11,12 +11,6 @@ public class Coin : MonoBehaviour
     {
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.isTrigger==false && col.CompareTag("Player"))

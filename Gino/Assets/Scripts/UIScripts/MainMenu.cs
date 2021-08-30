@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public Animator guiAnim;
+    private Animator guiAnim;
     public float transitionTime = 1f;
     public AudioSource audioS;
     public float musicVolume;

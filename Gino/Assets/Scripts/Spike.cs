@@ -5,20 +5,12 @@ using UnityEngine;
 public class Spike : MonoBehaviour
 {
     private PlayerController player;
-
     public float rightPow, leftPow, upPowL, upPowR;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
@@ -35,7 +27,6 @@ public class Spike : MonoBehaviour
                 player.Damage(1);
                 player.KnockBack(upPowR, rightPow, player.transform.position);
             }
-            
         }
     }
 }

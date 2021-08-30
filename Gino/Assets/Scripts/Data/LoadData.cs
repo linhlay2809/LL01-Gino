@@ -14,9 +14,4 @@ public class LoadData : MonoBehaviour
         gm.amountKnife = dt.knife;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

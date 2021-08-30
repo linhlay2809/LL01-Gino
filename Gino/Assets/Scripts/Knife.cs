@@ -10,12 +10,6 @@ public class Knife : MonoBehaviour
     {
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerStay2D(Collider2D col)
     {
         if (gm.amountKnife < 3)

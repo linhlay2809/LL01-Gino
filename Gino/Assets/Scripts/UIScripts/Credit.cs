@@ -6,11 +6,9 @@ using UnityEngine.SceneManagement;
 public class Credit : MonoBehaviour
 {
     public Animator anim;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         TheEnd();
-        
     }
     public void TheEnd()
     {

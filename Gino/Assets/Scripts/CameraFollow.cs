@@ -28,11 +28,6 @@ public class CameraFollow : MonoBehaviour
         control = player.GetComponent<PlayerController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void LateUpdate()
     {
         float posX;

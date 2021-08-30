@@ -14,7 +14,7 @@ public class Enemy2 : MonoBehaviour
     public Collider2D enemyAttack;
     public GameObject cone;
     public GameObject enemyDeathEF;
-
+    
     [Space(10)]
     public float speed = 50f, maxSpeed = 3f;
     public float delay = 0.2f, returnDelay = 0.2f;

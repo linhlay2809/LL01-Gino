@@ -13,11 +13,6 @@ public class GameMaster : MonoBehaviour
     public Text scoreText;
     public Text knifeText;
     public Text pressEText;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
