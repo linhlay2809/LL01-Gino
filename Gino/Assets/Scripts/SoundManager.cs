@@ -9,14 +9,20 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
     void Awake()
     {
-
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
             s.source.volume = s.volume;
             s.source.pitch = s.pitch;
-        }    
+        }
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
     public void Play(string name)
     {
