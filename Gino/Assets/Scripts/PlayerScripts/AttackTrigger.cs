@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackTrigger : MonoBehaviour
 {
-    public int dmg = 20;
+    [SerializeField] private int dmg = 20;
     [SerializeField] private GameObject attaclEffect;
 
     private void OnTriggerEnter2D(Collider2D collision)

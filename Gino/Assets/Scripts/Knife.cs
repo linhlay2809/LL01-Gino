@@ -17,7 +17,7 @@ public class Knife : MonoBehaviour
             if (col.isTrigger == false && col.CompareTag("Player"))
             {
                 FindObjectOfType<SoundManager>().Play("Coin");
-                gm.amountKnife += 1;
+                gm.AddKnife(1);
                 Destroy(gameObject);
             }
         }

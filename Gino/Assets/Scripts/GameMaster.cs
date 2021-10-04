@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameMaster : MonoBehaviour
 {
     [Header("Information")]
-    public int score;
+    private int score;
     public int amountKnife;
 
     [Header("Texts")]
@@ -17,14 +17,22 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Cộng điểm khi ăn diamond
-        scoreText.text = "" + score;
-        // Hiển thị số lượng knife
-        knifeText.text = "" + amountKnife;
         // Giới hạn knife là 3
         if(amountKnife > 3)
         {
             amountKnife = 3;
         }
+    }
+    // Cộng điểm khi ăn diamond
+    public void AddScore(int score)
+    {
+        this.score += score;
+        scoreText.text = "" + this.score;
+    }
+    // Hiển thị số lượng knife
+    public void AddKnife(int knife)
+    {
+        this.amountKnife += knife;
+        knifeText.text = "" + amountKnife;
     }
 }

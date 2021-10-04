@@ -16,7 +16,7 @@ public class Coin : MonoBehaviour
         if (col.isTrigger==false && col.CompareTag("Player"))
         {
             FindObjectOfType<SoundManager>().Play("Coin");
-            gm.score += changeScore;
+            gm.AddScore(changeScore);
             Destroy(gameObject);
         }
     }

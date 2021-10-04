@@ -29,6 +29,12 @@ public class HeartUI : MonoBehaviour
             heartImg2.sprite = heartSprite2[player.ourHealth];
             heartImg3.sprite = heartSprite3[player.ourHealth];
         }
+        else if(player.ourHealth < 0)
+        {
+            heartImg.sprite = heartSprite[0];
+            heartImg2.sprite = heartSprite2[0];
+            heartImg3.sprite = heartSprite3[0];
+        }
         
     }
 }
