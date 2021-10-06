@@ -16,7 +16,7 @@ public class Transition1Script : StateMachineBehaviour
         if (PlayerAttack.instance.attacking)
         {
             PlayerAttack.instance.anim.Play("Attack2");
-            PlayerAttack.instance.AttackB();
+            SoundManager.instance.Play("Attack");
         }
     }
 

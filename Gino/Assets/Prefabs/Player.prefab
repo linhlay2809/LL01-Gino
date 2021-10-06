@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1396019887960011235}
-  - component: {fileID: 1396019887960011234}
   - component: {fileID: 1396019887960011233}
+  - component: {fileID: 817589807}
   m_Layer: 3
   m_Name: AttackTrigger
   m_TagString: Untagged
@@ -32,32 +32,6 @@ Transform:
   m_Father: {fileID: 1396019888496692754}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1396019887960011234
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396019887960011236}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.24726081, y: 0.1382389}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.4945216, y: 1.6339569}
-  m_EdgeRadius: 0
 --- !u!114 &1396019887960011233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72,6 +46,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmg: 20
   attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
+--- !u!70 &817589807
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396019887960011236}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.3285481, y: 0.1055141}
+  m_Size: {x: 1.6104712, y: 1.4431208}
+  m_Direction: 1
 --- !u!1 &1396019888496692757
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,10 +279,6 @@ MonoBehaviour:
   attacking: 0
   knife: {fileID: 4313173064227625722, guid: e2ccf9c166c18ef46a6b4ab08cdd10f7, type: 3}
   spawnKnife: {fileID: 4974785063099706137}
-  trigger: {fileID: 1396019887960011234}
-  triggerB: {fileID: 4974785063433830308}
-  triggerC: {fileID: 4974785063545944938}
-  triggerD: {fileID: 4974785064025638933}
 --- !u!95 &1396019888496692755
 Animator:
   serializedVersion: 3
@@ -367,8 +353,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4974785063433830314}
-  - component: {fileID: 4974785063433830308}
   - component: {fileID: 4974785063433830309}
+  - component: {fileID: 1484178745}
   m_Layer: 3
   m_Name: AttackTriggerB
   m_TagString: Untagged
@@ -390,32 +376,6 @@ Transform:
   m_Father: {fileID: 1396019888496692754}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4974785063433830308
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974785063433830315}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.21761179, y: -0.18327332}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.825202, y: 0.7108364}
-  m_EdgeRadius: 0
 --- !u!114 &4974785063433830309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,6 +390,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmg: 30
   attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
+--- !u!70 &1484178745
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974785063433830315}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1589911, y: -0.19188546}
+  m_Size: {x: 1.5811427, y: 0.7039506}
+  m_Direction: 1
 --- !u!1 &4974785063545944939
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,8 +415,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4974785063545944932}
-  - component: {fileID: 4974785063545944938}
   - component: {fileID: 4974785063545944933}
+  - component: {fileID: 130120774}
   m_Layer: 3
   m_Name: AttackTriggerC
   m_TagString: Untagged
@@ -462,32 +438,6 @@ Transform:
   m_Father: {fileID: 1396019888496692754}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4974785063545944938
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974785063545944939}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.5077517, y: 0.63950443}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.4356446, y: 3.2667007}
-  m_EdgeRadius: 0
 --- !u!114 &4974785063545944933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,6 +452,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmg: 40
   attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
+--- !u!60 &130120774
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974785063545944939}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.4546399, y: 1.5718532}
+      - {x: -0.3011384, y: 2.1583984}
+      - {x: -1.1186657, y: 2.2419147}
+      - {x: -1.6840878, y: 1.9235322}
+      - {x: -1.4671478, y: 1.4905949}
+      - {x: -0.7853999, y: 1.0044969}
+      - {x: -0.15318197, y: -0.9040865}
+      - {x: 0.16676342, y: -0.91766787}
+      - {x: 0.6430955, y: 0.12257099}
+      - {x: 0.6930108, y: 0.9473407}
 --- !u!1 &4974785064025638938
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,8 +496,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4974785064025638935}
-  - component: {fileID: 4974785064025638933}
   - component: {fileID: 4974785064025638932}
+  - component: {fileID: 2117668064}
   m_Layer: 3
   m_Name: AttackTriggerD
   m_TagString: Untagged
@@ -534,32 +519,6 @@ Transform:
   m_Father: {fileID: 1396019888496692754}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4974785064025638933
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4974785064025638938}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.08606815, y: 0.025880814}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.0182648, y: 1.6194286}
-  m_EdgeRadius: 0
 --- !u!114 &4974785064025638932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,3 +533,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmg: 50
   attaclEffect: {fileID: 3548236754685938636, guid: 4011201894341c64eae2e3c5e6dedb73, type: 3}
+--- !u!70 &2117668064
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974785064025638938}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2585993, y: 0.0059151966}
+  m_Size: {x: 1.697933, y: 1.697933}
+  m_Direction: 1

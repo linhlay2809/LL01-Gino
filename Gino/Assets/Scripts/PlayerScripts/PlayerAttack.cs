@@ -13,12 +13,6 @@ public class PlayerAttack : MonoBehaviour
     public GameObject knife;
     public Transform spawnKnife;
 
-    [Header("Attack Trigger")]
-    public Collider2D trigger;
-    public Collider2D triggerB;
-    public Collider2D triggerC;
-    public Collider2D triggerD;
-
     private GameMaster gm;
 
     public static PlayerAttack instance;
@@ -30,10 +24,7 @@ public class PlayerAttack : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         gm = GameObject.FindGameObjectWithTag("GameMaster").GetComponent<GameMaster>();
-        trigger.enabled = false;
-        triggerB.enabled = false;
-        triggerC.enabled = false;
-        triggerD.enabled = false;
+
     }
 
     // Update is called once per frame
@@ -56,7 +47,7 @@ public class PlayerAttack : MonoBehaviour
     }
     public void ThrowKnife()
     {
-        SoundManager.instance.Play("ThrowKnife");
+        FindObjectOfType<SoundManager>().Play("ThrowKnife");
         StartCoroutine(DelayThrow());
     }
     // Thời gian kiếm bắt đầu bay ra
@@ -64,62 +55,6 @@ public class PlayerAttack : MonoBehaviour
     {
         yield return new WaitForSeconds(0.15f);
         Instantiate(knife, spawnKnife.transform.position, knife.transform.rotation);
-    }
-    // Attack A ---------------------------------------------
-    public void AttackA()
-    {
-        SoundManager.instance.Play("Attack");
-        StartCoroutine(DelayTriggerA());
-    }
-    // Bật tắt trigger A khi attack
-    IEnumerator DelayTriggerA()
-    {
-        yield return new WaitForSeconds(0.1f);
-        trigger.enabled = true;
-        yield return new WaitForSeconds(0.3f);
-        trigger.enabled = false;
-    }
-    // Attack B ---------------------------------------------
-    public void AttackB()
-    {
-        SoundManager.instance.Play("Attack");
-        StartCoroutine(DelayTriggerB());
-    }
-    // Bật tắt trigger B khi attack
-    IEnumerator DelayTriggerB()
-    {
-        yield return new WaitForSeconds(0.1f);
-        triggerB.enabled = true;
-        yield return new WaitForSeconds(0.3f);
-        triggerB.enabled = false;
-    }
-    // Attack C ---------------------------------------------
-    public void AttackC()
-    {
-        SoundManager.instance.Play("Attack");
-        StartCoroutine(DelayTriggerC());
-    }
-    // Bật tắt trigger C khi attack
-    IEnumerator DelayTriggerC()
-    {
-        yield return new WaitForSeconds(0.1f);
-        triggerC.enabled = true;
-        yield return new WaitForSeconds(0.3f);
-        triggerC.enabled = false;
-    }
-    // Attack D ---------------------------------------------
-    public void AttackD()
-    {
-        SoundManager.instance.Play("MagicAttack");
-        StartCoroutine(DelayTriggerD());
-    }
-    // Bật tắt trigger D khi attack
-    IEnumerator DelayTriggerD()
-    {
-        yield return new WaitForSeconds(0.4f);
-        triggerD.enabled = true;
-        yield return new WaitForSeconds(0.6f);
-        triggerD.enabled = false;
     }
 
 }

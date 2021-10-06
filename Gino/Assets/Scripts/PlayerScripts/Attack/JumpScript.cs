@@ -16,7 +16,7 @@ public class JumpScript : StateMachineBehaviour
         if (PlayerAttack.instance.attacking)
         {
             PlayerAttack.instance.anim.Play("JumpAttack");
-            PlayerAttack.instance.AttackA();
+            SoundManager.instance.Play("Attack");
         }
         if (PlayerAttack.instance.throwAttacking)
         {

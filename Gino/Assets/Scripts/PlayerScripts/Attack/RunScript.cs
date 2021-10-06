@@ -16,7 +16,7 @@ public class RunScript : StateMachineBehaviour
         if (PlayerAttack.instance.attacking)
         {
             PlayerAttack.instance.anim.Play("Attack1");
-            PlayerAttack.instance.AttackA();
+            SoundManager.instance.Play("Attack");
         }
         if (PlayerAttack.instance.throwAttacking)
         {

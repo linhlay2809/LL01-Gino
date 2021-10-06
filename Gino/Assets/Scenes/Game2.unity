@@ -35306,7 +35306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c54f582a8fe931f45a3e762e03f14550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   amountKnife: 3
   scoreText: {fileID: 1886546087}
   knifeText: {fileID: 1765603217}
